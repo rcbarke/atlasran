@@ -1,0 +1,29 @@
+Run directory: /home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260225_182659_ues12
+SRK root:      /home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu
+UE label:      12
+Start epoch:   1772062021040 (epoch ms)
+Interval:      0.5 s
+docker --since 0s
+ZMQ:           127.0.0.1:5555
+Duration:      60 s
+
+WARN: nvidia-smi not found; skipping GPU monitors (01/02).
+Started: 03_cu_cpu (pid=450440)
+Started: 04_du_cpu (pid=450441)
+Started: 05_cu_logs (pid=450443)
+Started: 06_du_logs (pid=450444)
+Started: 07_zmq_client (pid=450447)
+Started: 08_system_cpu (pid=450449)
+
+All monitors started. PID list: /home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260225_182659_ues12/pids.tsv
+Manifest: /home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260225_182659_ues12/run_manifest.json
+
+
+Stopping monitors...
+  Killing 03_cu_cpu (pid=450440)
+  Killing 04_du_cpu (pid=450441)
+  Killing 05_cu_logs (pid=450443)
+  Killing 06_du_logs (pid=450444)
+  Killing 07_zmq_client (pid=450447)
+  Killing 08_system_cpu (pid=450449)
+Done. Outputs in: /home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260225_182659_ues12

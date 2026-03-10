@@ -1,0 +1,1819 @@
+[
+  {
+    "run_dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172332_ues0",
+    "run_name": "20260219_172332_ues0",
+    "ue_count": 0,
+    "files_present": {
+      "cu_cpu.csv": true,
+      "cu_logs.tsv": true,
+      "du_cpu.csv": true,
+      "du_logs.tsv": true,
+      "gpu_power.csv": false,
+      "gpu_util.csv": false,
+      "pids.tsv": true,
+      "run_all_monitors.launch.log": true,
+      "run_manifest.json": true,
+      "zmq_stats.tsv": true
+    },
+    "missing_files": [],
+    "manifest": {
+      "created_at": "2026-02-19T17:23:32-05:00",
+      "host": "spark-ecf8",
+      "uname": "Linux spark-ecf8 6.14.0-1015-nvidia #15-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 25 18:02:16 UTC 2025 aarch64 aarch64 aarch64 GNU/Linux",
+      "srk_root": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu",
+      "run_dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172332_ues0",
+      "ue_label": "0",
+      "start_epoch_ms": 1771539812470,
+      "start_delay_ms": 100,
+      "interval_s": 0.5,
+      "docker_logs_since": "0s",
+      "zmq_host": "127.0.0.1",
+      "zmq_port": 5555,
+      "zmq_extra_args": "'' "
+    },
+    "pids": {
+      "03_cu_cpu": 249038,
+      "04_du_cpu": 249040,
+      "05_cu_logs": 249041,
+      "06_du_logs": 249042,
+      "07_zmq_client": 249044
+    },
+    "cu_cpu": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172332_ues0/cu_cpu.csv",
+      "rows": 20,
+      "duration_s": 56.838,
+      "cpu": {
+        "cpu_n": 20,
+        "cpu_mean": 1.7035,
+        "cpu_p50": 1.5950000000000002,
+        "cpu_p95": 2.6015,
+        "cpu_min": 1.3,
+        "cpu_max": 2.63
+      },
+      "mem": {
+        "mem_n": 20,
+        "mem_mean": 0.13,
+        "mem_p50": 0.13,
+        "mem_p95": 0.13,
+        "mem_min": 0.13,
+        "mem_max": 0.13
+      },
+      "pids": {
+        "pids_n": 20,
+        "pids_mean": 16.0,
+        "pids_p50": 16.0,
+        "pids_p95": 16.0,
+        "pids_min": 16.0,
+        "pids_max": 16.0
+      }
+    },
+    "du_cpu": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172332_ues0/du_cpu.csv",
+      "rows": 20,
+      "duration_s": 55.833,
+      "cpu": {
+        "cpu_n": 20,
+        "cpu_mean": 213.531,
+        "cpu_p50": 213.39,
+        "cpu_p95": 216.87800000000001,
+        "cpu_min": 210.32,
+        "cpu_max": 217.6
+      },
+      "mem": {
+        "mem_n": 20,
+        "mem_mean": 0.8100000000000002,
+        "mem_p50": 0.81,
+        "mem_p95": 0.81,
+        "mem_min": 0.81,
+        "mem_max": 0.81
+      },
+      "pids": {
+        "pids_n": 20,
+        "pids_mean": 22.0,
+        "pids_p50": 22.0,
+        "pids_p95": 22.0,
+        "pids_min": 22.0,
+        "pids_max": 22.0
+      }
+    },
+    "gpu_util": null,
+    "gpu_power": null,
+    "cu_logs": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172332_ues0/cu_logs.tsv",
+      "lines": 0,
+      "duration_s": null,
+      "error_counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      },
+      "error_examples": {
+        "error": [],
+        "assert": [],
+        "segfault": [],
+        "aborted": [],
+        "buffer_overflow": [],
+        "failed": [],
+        "timeout": []
+      }
+    },
+    "du_logs": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172332_ues0/du_logs.tsv",
+      "duration_s": 59.692,
+      "lines": 1625,
+      "ue_ids_count": 1,
+      "ue_ids": [
+        1
+      ],
+      "rnti_count": 1,
+      "ldpc_impl": "cpu",
+      "ldpc_threads_assumed": 4,
+      "ldpc_threads_observed": {
+        "threads_n": 59,
+        "threads_mean": 1.0,
+        "threads_p50": 1.0,
+        "threads_p95": 1.0,
+        "threads_min": 1.0,
+        "threads_max": 1.0
+      },
+      "ldpc_decode_us": {
+        "ldpc_n": 59,
+        "ldpc_mean": 79.85338983050848,
+        "ldpc_p50": 78.36,
+        "ldpc_p95": 94.46399999999998,
+        "ldpc_min": 55.66,
+        "ldpc_max": 162.9
+      },
+      "ldpc_decode_us_per_seg": {
+        "ldpc_seg_n": 59,
+        "ldpc_seg_mean": 79.85338983050848,
+        "ldpc_seg_p50": 78.36,
+        "ldpc_seg_p95": 94.46399999999998,
+        "ldpc_seg_min": 55.66,
+        "ldpc_seg_max": 162.9
+      },
+      "ldpc_events_per_s": 0.9884071567379213,
+      "ldpc_thread_decode_us": {
+        "ldpc_thread_n": 59,
+        "ldpc_thread_mean": 79.85338983050848,
+        "ldpc_thread_p50": 78.36,
+        "ldpc_thread_p95": 94.46399999999998,
+        "ldpc_thread_min": 55.66,
+        "ldpc_thread_max": 162.9
+      },
+      "ldpc_thread_events_per_s": 0.9884071567379213,
+      "ldpc_cumulative_decode_us": {
+        "ldpc_cum_n": 59,
+        "ldpc_cum_mean": 319.4135593220339,
+        "ldpc_cum_p50": 313.44,
+        "ldpc_cum_p95": 377.85599999999994,
+        "ldpc_cum_min": 222.64,
+        "ldpc_cum_max": 651.6
+      },
+      "ldpc_cumulative_events_per_s": 3.9536286269516854,
+      "error_counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      }
+    },
+    "zmq_stats": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172332_ues0/zmq_stats.tsv",
+      "lines": 595,
+      "published_lines": 0,
+      "published_max": 0,
+      "ue_lines": 0,
+      "unique_rnti_count": 0,
+      "usage_error": false,
+      "parse_errors": 0
+    },
+    "run_all_monitors_log": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172332_ues0/run_all_monitors.launch.log",
+      "bytes": 1120,
+      "counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      },
+      "examples": {
+        "error": [],
+        "assert": [],
+        "segfault": [],
+        "aborted": [],
+        "buffer_overflow": [],
+        "failed": [],
+        "timeout": []
+      }
+    },
+    "iperf": {
+      "dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172332_ues0/iperf3",
+      "files": [],
+      "records": []
+    },
+    "iperf_summary": {
+      "files_n": 0,
+      "parse_fail_n": 0,
+      "missing_end_n": 0,
+      "warning_prefix_n": 0,
+      "stderr_error_n": 0,
+      "ue_bps_n": 0,
+      "total_mbps": null,
+      "per_ue_mean_mbps": null,
+      "fairness_jain": null
+    }
+  },
+  {
+    "run_dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1",
+    "run_name": "20260219_172441_ues1",
+    "ue_count": 1,
+    "files_present": {
+      "cu_cpu.csv": true,
+      "cu_logs.tsv": true,
+      "du_cpu.csv": true,
+      "du_logs.tsv": true,
+      "gpu_power.csv": false,
+      "gpu_util.csv": false,
+      "pids.tsv": true,
+      "run_all_monitors.launch.log": true,
+      "run_manifest.json": true,
+      "zmq_stats.tsv": true
+    },
+    "missing_files": [],
+    "manifest": {
+      "created_at": "2026-02-19T17:24:41-05:00",
+      "host": "spark-ecf8",
+      "uname": "Linux spark-ecf8 6.14.0-1015-nvidia #15-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 25 18:02:16 UTC 2025 aarch64 aarch64 aarch64 GNU/Linux",
+      "srk_root": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu",
+      "run_dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1",
+      "ue_label": "1",
+      "start_epoch_ms": 1771539881791,
+      "start_delay_ms": 100,
+      "interval_s": 0.5,
+      "docker_logs_since": "0s",
+      "zmq_host": "127.0.0.1",
+      "zmq_port": 5555,
+      "zmq_extra_args": "'' "
+    },
+    "pids": {
+      "03_cu_cpu": 251601,
+      "04_du_cpu": 251602,
+      "05_cu_logs": 251603,
+      "06_du_logs": 251606,
+      "07_zmq_client": 251608
+    },
+    "cu_cpu": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1/cu_cpu.csv",
+      "rows": 20,
+      "duration_s": 56.148,
+      "cpu": {
+        "cpu_n": 20,
+        "cpu_mean": 22.678,
+        "cpu_p50": 22.939999999999998,
+        "cpu_p95": 25.3745,
+        "cpu_min": 13.31,
+        "cpu_max": 26.03
+      },
+      "mem": {
+        "mem_n": 20,
+        "mem_mean": 0.13,
+        "mem_p50": 0.13,
+        "mem_p95": 0.13,
+        "mem_min": 0.13,
+        "mem_max": 0.13
+      },
+      "pids": {
+        "pids_n": 20,
+        "pids_mean": 16.0,
+        "pids_p50": 16.0,
+        "pids_p95": 16.0,
+        "pids_min": 16.0,
+        "pids_max": 16.0
+      }
+    },
+    "du_cpu": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1/du_cpu.csv",
+      "rows": 20,
+      "duration_s": 57.153,
+      "cpu": {
+        "cpu_n": 20,
+        "cpu_mean": 329.264,
+        "cpu_p50": 329.055,
+        "cpu_p95": 332.279,
+        "cpu_min": 326.34,
+        "cpu_max": 332.83
+      },
+      "mem": {
+        "mem_n": 20,
+        "mem_mean": 0.8100000000000002,
+        "mem_p50": 0.81,
+        "mem_p95": 0.81,
+        "mem_min": 0.81,
+        "mem_max": 0.81
+      },
+      "pids": {
+        "pids_n": 20,
+        "pids_mean": 22.0,
+        "pids_p50": 22.0,
+        "pids_p95": 22.0,
+        "pids_min": 22.0,
+        "pids_max": 22.0
+      }
+    },
+    "gpu_util": null,
+    "gpu_power": null,
+    "cu_logs": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1/cu_logs.tsv",
+      "lines": 0,
+      "duration_s": null,
+      "error_counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      },
+      "error_examples": {
+        "error": [],
+        "assert": [],
+        "segfault": [],
+        "aborted": [],
+        "buffer_overflow": [],
+        "failed": [],
+        "timeout": []
+      }
+    },
+    "du_logs": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1/du_logs.tsv",
+      "duration_s": 59.367,
+      "lines": 852,
+      "ue_ids_count": 1,
+      "ue_ids": [
+        1
+      ],
+      "rnti_count": 1,
+      "ldpc_impl": "cpu",
+      "ldpc_threads_assumed": 4,
+      "ldpc_threads_observed": {
+        "threads_n": 60,
+        "threads_mean": 1.0,
+        "threads_p50": 1.0,
+        "threads_p95": 1.0,
+        "threads_min": 1.0,
+        "threads_max": 1.0
+      },
+      "ldpc_decode_us": {
+        "ldpc_n": 60,
+        "ldpc_mean": 256.267,
+        "ldpc_p50": 260.97,
+        "ldpc_p95": 262.177,
+        "ldpc_min": 65.3,
+        "ldpc_max": 263.21
+      },
+      "ldpc_decode_us_per_seg": {
+        "ldpc_seg_n": 60,
+        "ldpc_seg_mean": 32.899166666666666,
+        "ldpc_seg_p50": 32.03,
+        "ldpc_seg_p95": 32.271,
+        "ldpc_seg_min": 31.76,
+        "ldpc_seg_max": 65.3
+      },
+      "ldpc_events_per_s": 1.010662489261711,
+      "ldpc_thread_decode_us": {
+        "ldpc_thread_n": 60,
+        "ldpc_thread_mean": 256.267,
+        "ldpc_thread_p50": 260.97,
+        "ldpc_thread_p95": 262.177,
+        "ldpc_thread_min": 65.3,
+        "ldpc_thread_max": 263.21
+      },
+      "ldpc_thread_events_per_s": 1.010662489261711,
+      "ldpc_cumulative_decode_us": {
+        "ldpc_cum_n": 60,
+        "ldpc_cum_mean": 1025.068,
+        "ldpc_cum_p50": 1043.88,
+        "ldpc_cum_p95": 1048.708,
+        "ldpc_cum_min": 261.2,
+        "ldpc_cum_max": 1052.84
+      },
+      "ldpc_cumulative_events_per_s": 4.042649957046844,
+      "error_counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      }
+    },
+    "zmq_stats": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1/zmq_stats.tsv",
+      "lines": 600,
+      "published_lines": 0,
+      "published_max": 0,
+      "ue_lines": 0,
+      "unique_rnti_count": 0,
+      "usage_error": false,
+      "parse_errors": 0
+    },
+    "run_all_monitors_log": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1/run_all_monitors.launch.log",
+      "bytes": 1120,
+      "counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      },
+      "examples": {
+        "error": [],
+        "assert": [],
+        "segfault": [],
+        "aborted": [],
+        "buffer_overflow": [],
+        "failed": [],
+        "timeout": []
+      }
+    },
+    "iperf": {
+      "dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1/iperf3",
+      "files": [
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1/iperf3/uplink_tcp_ue1_12.1.1.2_20260219_172441.json"
+      ],
+      "records": [
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172441_ues1/iperf3/uplink_tcp_ue1_12.1.1.2_20260219_172441.json",
+          "parse_ok": true,
+          "warning_prefix": null,
+          "has_warning_prefix": false,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771539881,
+          "intervals_n": 60,
+          "end_present": true,
+          "end_bps": 113839219.37149933,
+          "chosen_bps": 113839219.37149933,
+          "bps": {
+            "bps_n": 60,
+            "bps_mean": 113839286.289226,
+            "bps_p50": 114935927.28837293,
+            "bps_p95": 115745750.04804178,
+            "bps_min": 53213806.67649705,
+            "bps_max": 128652169.4560551
+          },
+          "end_bytes": 853795056.0,
+          "retransmits": 2400,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        }
+      ]
+    },
+    "iperf_summary": {
+      "files_n": 1,
+      "parse_fail_n": 0,
+      "missing_end_n": 0,
+      "warning_prefix_n": 0,
+      "stderr_error_n": 0,
+      "ue_bps_n": 1,
+      "total_mbps": 113.83921937149933,
+      "per_ue_mean_mbps": 113.83921937149933,
+      "fairness_jain": 1.0
+    }
+  },
+  {
+    "run_dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3",
+    "run_name": "20260219_172959_ues3",
+    "ue_count": 3,
+    "files_present": {
+      "cu_cpu.csv": true,
+      "cu_logs.tsv": true,
+      "du_cpu.csv": true,
+      "du_logs.tsv": true,
+      "gpu_power.csv": false,
+      "gpu_util.csv": false,
+      "pids.tsv": true,
+      "run_all_monitors.launch.log": true,
+      "run_manifest.json": true,
+      "zmq_stats.tsv": true
+    },
+    "missing_files": [],
+    "manifest": {
+      "created_at": "2026-02-19T17:30:00-05:00",
+      "host": "spark-ecf8",
+      "uname": "Linux spark-ecf8 6.14.0-1015-nvidia #15-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 25 18:02:16 UTC 2025 aarch64 aarch64 aarch64 GNU/Linux",
+      "srk_root": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu",
+      "run_dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3",
+      "ue_label": "3",
+      "start_epoch_ms": 1771540200385,
+      "start_delay_ms": 100,
+      "interval_s": 0.5,
+      "docker_logs_since": "0s",
+      "zmq_host": "127.0.0.1",
+      "zmq_port": 5555,
+      "zmq_extra_args": "'' "
+    },
+    "pids": {
+      "03_cu_cpu": 264910,
+      "04_du_cpu": 264912,
+      "05_cu_logs": 264913,
+      "06_du_logs": 264915,
+      "07_zmq_client": 264917
+    },
+    "cu_cpu": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/cu_cpu.csv",
+      "rows": 20,
+      "duration_s": 57.158,
+      "cpu": {
+        "cpu_n": 20,
+        "cpu_mean": 16.415,
+        "cpu_p50": 16.740000000000002,
+        "cpu_p95": 17.828,
+        "cpu_min": 10.11,
+        "cpu_max": 18.17
+      },
+      "mem": {
+        "mem_n": 20,
+        "mem_mean": 0.13,
+        "mem_p50": 0.13,
+        "mem_p95": 0.13,
+        "mem_min": 0.13,
+        "mem_max": 0.13
+      },
+      "pids": {
+        "pids_n": 20,
+        "pids_mean": 16.0,
+        "pids_p50": 16.0,
+        "pids_p95": 16.0,
+        "pids_min": 16.0,
+        "pids_max": 16.0
+      }
+    },
+    "du_cpu": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/du_cpu.csv",
+      "rows": 20,
+      "duration_s": 56.154,
+      "cpu": {
+        "cpu_n": 20,
+        "cpu_mean": 288.0605,
+        "cpu_p50": 292.09000000000003,
+        "cpu_p95": 296.9695,
+        "cpu_min": 209.58,
+        "cpu_max": 297.91
+      },
+      "mem": {
+        "mem_n": 20,
+        "mem_mean": 0.82,
+        "mem_p50": 0.82,
+        "mem_p95": 0.82,
+        "mem_min": 0.82,
+        "mem_max": 0.82
+      },
+      "pids": {
+        "pids_n": 20,
+        "pids_mean": 22.0,
+        "pids_p50": 22.0,
+        "pids_p95": 22.0,
+        "pids_min": 22.0,
+        "pids_max": 22.0
+      }
+    },
+    "gpu_util": null,
+    "gpu_power": null,
+    "cu_logs": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/cu_logs.tsv",
+      "lines": 0,
+      "duration_s": null,
+      "error_counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      },
+      "error_examples": {
+        "error": [],
+        "assert": [],
+        "segfault": [],
+        "aborted": [],
+        "buffer_overflow": [],
+        "failed": [],
+        "timeout": []
+      }
+    },
+    "du_logs": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/du_logs.tsv",
+      "duration_s": 59.038,
+      "lines": 1187,
+      "ue_ids_count": 3,
+      "ue_ids": [
+        1,
+        2,
+        3
+      ],
+      "rnti_count": 3,
+      "ldpc_impl": "cpu",
+      "ldpc_threads_assumed": 4,
+      "ldpc_threads_observed": {
+        "threads_n": 60,
+        "threads_mean": 1.0,
+        "threads_p50": 1.0,
+        "threads_p95": 1.0,
+        "threads_min": 1.0,
+        "threads_max": 1.0
+      },
+      "ldpc_decode_us": {
+        "ldpc_n": 60,
+        "ldpc_mean": 260.15366666666665,
+        "ldpc_p50": 266.24,
+        "ldpc_p95": 268.5225,
+        "ldpc_min": 69.39,
+        "ldpc_max": 269.44
+      },
+      "ldpc_decode_us_per_seg": {
+        "ldpc_seg_n": 60,
+        "ldpc_seg_mean": 34.14783333333333,
+        "ldpc_seg_p50": 32.705,
+        "ldpc_seg_p95": 34.05799999999994,
+        "ldpc_seg_min": 32.33,
+        "ldpc_seg_max": 77.16
+      },
+      "ldpc_events_per_s": 1.016294589925133,
+      "ldpc_thread_decode_us": {
+        "ldpc_thread_n": 60,
+        "ldpc_thread_mean": 260.15366666666665,
+        "ldpc_thread_p50": 266.24,
+        "ldpc_thread_p95": 268.5225,
+        "ldpc_thread_min": 69.39,
+        "ldpc_thread_max": 269.44
+      },
+      "ldpc_thread_events_per_s": 1.016294589925133,
+      "ldpc_cumulative_decode_us": {
+        "ldpc_cum_n": 60,
+        "ldpc_cum_mean": 1040.6146666666666,
+        "ldpc_cum_p50": 1064.96,
+        "ldpc_cum_p95": 1074.09,
+        "ldpc_cum_min": 277.56,
+        "ldpc_cum_max": 1077.76
+      },
+      "ldpc_cumulative_events_per_s": 4.065178359700532,
+      "error_counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      }
+    },
+    "zmq_stats": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/zmq_stats.tsv",
+      "lines": 838,
+      "published_lines": 0,
+      "published_max": 0,
+      "ue_lines": 0,
+      "unique_rnti_count": 0,
+      "usage_error": false,
+      "parse_errors": 0
+    },
+    "run_all_monitors_log": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/run_all_monitors.launch.log",
+      "bytes": 1120,
+      "counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      },
+      "examples": {
+        "error": [],
+        "assert": [],
+        "segfault": [],
+        "aborted": [],
+        "buffer_overflow": [],
+        "failed": [],
+        "timeout": []
+      }
+    },
+    "iperf": {
+      "dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/iperf3",
+      "files": [
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/iperf3/uplink_tcp_ue1_12.1.1.2_20260219_172959.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/iperf3/uplink_tcp_ue2_12.1.1.3_20260219_172959.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/iperf3/uplink_tcp_ue3_12.1.1.4_20260219_172959.json"
+      ],
+      "records": [
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/iperf3/uplink_tcp_ue1_12.1.1.2_20260219_172959.json",
+          "parse_ok": true,
+          "warning_prefix": null,
+          "has_warning_prefix": false,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540200,
+          "intervals_n": 60,
+          "end_present": true,
+          "end_bps": 21433877.982739706,
+          "chosen_bps": 21433877.982739706,
+          "bps": {
+            "bps_n": 60,
+            "bps_mean": 21434342.186726455,
+            "bps_p50": 21815010.169703584,
+            "bps_p95": 29634236.647598326,
+            "bps_min": 4158406.652486539,
+            "bps_max": 38545923.96541145
+          },
+          "end_bytes": 160754752.0,
+          "retransmits": 1518,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/iperf3/uplink_tcp_ue2_12.1.1.3_20260219_172959.json",
+          "parse_ok": true,
+          "warning_prefix": null,
+          "has_warning_prefix": false,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540200,
+          "intervals_n": 60,
+          "end_present": true,
+          "end_bps": 21423341.835163694,
+          "chosen_bps": 21423341.835163694,
+          "bps": {
+            "bps_n": 60,
+            "bps_mean": 21423311.55633194,
+            "bps_p50": 21824300.233777456,
+            "bps_p95": 25596780.547820494,
+            "bps_min": 3961668.4942714837,
+            "bps_max": 37746003.295142
+          },
+          "end_bytes": 160675120.0,
+          "retransmits": 1151,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_172959_ues3/iperf3/uplink_tcp_ue3_12.1.1.4_20260219_172959.json",
+          "parse_ok": true,
+          "warning_prefix": null,
+          "has_warning_prefix": false,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540200,
+          "intervals_n": 60,
+          "end_present": true,
+          "end_bps": 21417148.329897285,
+          "chosen_bps": 21417148.329897285,
+          "bps": {
+            "bps_n": 60,
+            "bps_mean": 21417377.832602683,
+            "bps_p50": 21812727.25620924,
+            "bps_p95": 26355012.503215183,
+            "bps_min": 3868819.865974977,
+            "bps_max": 35111820.49311413
+          },
+          "end_bytes": 160628832.0,
+          "retransmits": 1388,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        }
+      ]
+    },
+    "iperf_summary": {
+      "files_n": 3,
+      "parse_fail_n": 0,
+      "missing_end_n": 0,
+      "warning_prefix_n": 0,
+      "stderr_error_n": 0,
+      "ue_bps_n": 3,
+      "total_mbps": 64.27436814780069,
+      "per_ue_mean_mbps": 21.424789382600228,
+      "fairness_jain": 0.9999998960951457
+    }
+  },
+  {
+    "run_dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6",
+    "run_name": "20260219_173535_ues6",
+    "ue_count": 6,
+    "files_present": {
+      "cu_cpu.csv": true,
+      "cu_logs.tsv": true,
+      "du_cpu.csv": true,
+      "du_logs.tsv": true,
+      "gpu_power.csv": false,
+      "gpu_util.csv": false,
+      "pids.tsv": true,
+      "run_all_monitors.launch.log": true,
+      "run_manifest.json": true,
+      "zmq_stats.tsv": true
+    },
+    "missing_files": [],
+    "manifest": {
+      "created_at": "2026-02-19T17:35:36-05:00",
+      "host": "spark-ecf8",
+      "uname": "Linux spark-ecf8 6.14.0-1015-nvidia #15-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 25 18:02:16 UTC 2025 aarch64 aarch64 aarch64 GNU/Linux",
+      "srk_root": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu",
+      "run_dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6",
+      "ue_label": "6",
+      "start_epoch_ms": 1771540536171,
+      "start_delay_ms": 100,
+      "interval_s": 0.5,
+      "docker_logs_since": "0s",
+      "zmq_host": "127.0.0.1",
+      "zmq_port": 5555,
+      "zmq_extra_args": "'' "
+    },
+    "pids": {
+      "03_cu_cpu": 280473,
+      "04_du_cpu": 280474,
+      "05_cu_logs": 280476,
+      "06_du_logs": 280477,
+      "07_zmq_client": 280478
+    },
+    "cu_cpu": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/cu_cpu.csv",
+      "rows": 20,
+      "duration_s": 57.16,
+      "cpu": {
+        "cpu_n": 20,
+        "cpu_mean": 8.619499999999999,
+        "cpu_p50": 8.74,
+        "cpu_p95": 9.372,
+        "cpu_min": 5.69,
+        "cpu_max": 9.6
+      },
+      "mem": {
+        "mem_n": 20,
+        "mem_mean": 0.13,
+        "mem_p50": 0.13,
+        "mem_p95": 0.13,
+        "mem_min": 0.13,
+        "mem_max": 0.13
+      },
+      "pids": {
+        "pids_n": 20,
+        "pids_mean": 16.0,
+        "pids_p50": 16.0,
+        "pids_p95": 16.0,
+        "pids_min": 16.0,
+        "pids_max": 16.0
+      }
+    },
+    "du_cpu": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/du_cpu.csv",
+      "rows": 20,
+      "duration_s": 56.154,
+      "cpu": {
+        "cpu_n": 20,
+        "cpu_mean": 202.2945,
+        "cpu_p50": 203.375,
+        "cpu_p95": 209.6795,
+        "cpu_min": 160.07,
+        "cpu_max": 214.42
+      },
+      "mem": {
+        "mem_n": 20,
+        "mem_mean": 0.8299999999999998,
+        "mem_p50": 0.83,
+        "mem_p95": 0.83,
+        "mem_min": 0.83,
+        "mem_max": 0.83
+      },
+      "pids": {
+        "pids_n": 20,
+        "pids_mean": 22.0,
+        "pids_p50": 22.0,
+        "pids_p95": 22.0,
+        "pids_min": 22.0,
+        "pids_max": 22.0
+      }
+    },
+    "gpu_util": null,
+    "gpu_power": null,
+    "cu_logs": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/cu_logs.tsv",
+      "lines": 0,
+      "duration_s": null,
+      "error_counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      },
+      "error_examples": {
+        "error": [],
+        "assert": [],
+        "segfault": [],
+        "aborted": [],
+        "buffer_overflow": [],
+        "failed": [],
+        "timeout": []
+      }
+    },
+    "du_logs": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/du_logs.tsv",
+      "duration_s": 59.09,
+      "lines": 1160,
+      "ue_ids_count": 6,
+      "ue_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "rnti_count": 6,
+      "ldpc_impl": "cpu",
+      "ldpc_threads_assumed": 4,
+      "ldpc_threads_observed": {
+        "threads_n": 60,
+        "threads_mean": 1.0,
+        "threads_p50": 1.0,
+        "threads_p95": 1.0,
+        "threads_min": 1.0,
+        "threads_max": 1.0
+      },
+      "ldpc_decode_us": {
+        "ldpc_n": 60,
+        "ldpc_mean": 275.29033333333336,
+        "ldpc_p50": 282.865,
+        "ldpc_p95": 287.92049999999995,
+        "ldpc_min": 91.87,
+        "ldpc_max": 290.46
+      },
+      "ldpc_decode_us_per_seg": {
+        "ldpc_seg_n": 60,
+        "ldpc_seg_mean": 37.29966666666667,
+        "ldpc_seg_p50": 34.785,
+        "ldpc_seg_p95": 49.67249999999997,
+        "ldpc_seg_min": 33.19,
+        "ldpc_seg_max": 94.16
+      },
+      "ldpc_events_per_s": 1.0154002369267219,
+      "ldpc_thread_decode_us": {
+        "ldpc_thread_n": 60,
+        "ldpc_thread_mean": 275.29033333333336,
+        "ldpc_thread_p50": 282.865,
+        "ldpc_thread_p95": 287.92049999999995,
+        "ldpc_thread_min": 91.87,
+        "ldpc_thread_max": 290.46
+      },
+      "ldpc_thread_events_per_s": 1.0154002369267219,
+      "ldpc_cumulative_decode_us": {
+        "ldpc_cum_n": 60,
+        "ldpc_cum_mean": 1101.1613333333335,
+        "ldpc_cum_p50": 1131.46,
+        "ldpc_cum_p95": 1151.6819999999998,
+        "ldpc_cum_min": 367.48,
+        "ldpc_cum_max": 1161.84
+      },
+      "ldpc_cumulative_events_per_s": 4.0616009477068875,
+      "error_counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      }
+    },
+    "zmq_stats": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/zmq_stats.tsv",
+      "lines": 45,
+      "published_lines": 0,
+      "published_max": 0,
+      "ue_lines": 0,
+      "unique_rnti_count": 0,
+      "usage_error": false,
+      "parse_errors": 0
+    },
+    "run_all_monitors_log": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/run_all_monitors.launch.log",
+      "bytes": 1120,
+      "counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      },
+      "examples": {
+        "error": [],
+        "assert": [],
+        "segfault": [],
+        "aborted": [],
+        "buffer_overflow": [],
+        "failed": [],
+        "timeout": []
+      }
+    },
+    "iperf": {
+      "dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3",
+      "files": [
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue1_12.1.1.2_20260219_173535.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue2_12.1.1.3_20260219_173535.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue3_12.1.1.4_20260219_173535.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue4_12.1.1.5_20260219_173535.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue5_12.1.1.6_20260219_173535.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue6_12.1.1.7_20260219_173535.json"
+      ],
+      "records": [
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue1_12.1.1.2_20260219_173535.json",
+          "parse_ok": true,
+          "warning_prefix": null,
+          "has_warning_prefix": false,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540536,
+          "intervals_n": 60,
+          "end_present": true,
+          "end_bps": 5288829.83708267,
+          "chosen_bps": 5288829.83708267,
+          "bps": {
+            "bps_n": 60,
+            "bps_mean": 5289302.051214139,
+            "bps_p50": 5624003.638387383,
+            "bps_p95": 5834978.135900009,
+            "bps_min": 0.0,
+            "bps_max": 26727509.288444612
+          },
+          "end_bytes": 39666752.0,
+          "retransmits": 957,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue2_12.1.1.3_20260219_173535.json",
+          "parse_ok": true,
+          "warning_prefix": null,
+          "has_warning_prefix": false,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540536,
+          "intervals_n": 60,
+          "end_present": true,
+          "end_bps": 5423868.76364821,
+          "chosen_bps": 5423868.76364821,
+          "bps": {
+            "bps_n": 60,
+            "bps_mean": 5424490.521090784,
+            "bps_p50": 5664333.9571242975,
+            "bps_p95": 14763011.457250854,
+            "bps_min": 0.0,
+            "bps_max": 21999765.738227606
+          },
+          "end_bytes": 40679072.0,
+          "retransmits": 880,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue3_12.1.1.4_20260219_173535.json",
+          "parse_ok": true,
+          "warning_prefix": null,
+          "has_warning_prefix": false,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540536,
+          "intervals_n": 60,
+          "end_present": true,
+          "end_bps": 5434756.718159525,
+          "chosen_bps": 5434756.718159525,
+          "bps": {
+            "bps_n": 60,
+            "bps_mean": 5434945.199497814,
+            "bps_p50": 5646583.583939177,
+            "bps_p95": 12921876.898536164,
+            "bps_min": 0.0,
+            "bps_max": 17212015.954486746
+          },
+          "end_bytes": 40760744.0,
+          "retransmits": 745,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue4_12.1.1.5_20260219_173535.json",
+          "parse_ok": true,
+          "warning_prefix": null,
+          "has_warning_prefix": false,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540536,
+          "intervals_n": 60,
+          "end_present": true,
+          "end_bps": 5430797.025603966,
+          "chosen_bps": 5430797.025603966,
+          "bps": {
+            "bps_n": 60,
+            "bps_mean": 5431204.888509106,
+            "bps_p50": 5627665.840875274,
+            "bps_p95": 9112807.368482811,
+            "bps_min": 0.0,
+            "bps_max": 27554150.033460815
+          },
+          "end_bytes": 40731032.0,
+          "retransmits": 1744,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue5_12.1.1.6_20260219_173535.json",
+          "parse_ok": true,
+          "warning_prefix": null,
+          "has_warning_prefix": false,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540536,
+          "intervals_n": 60,
+          "end_present": true,
+          "end_bps": 5385664.458029295,
+          "chosen_bps": 5385664.458029295,
+          "bps": {
+            "bps_n": 60,
+            "bps_mean": 5386521.927678279,
+            "bps_p50": 5600869.606655927,
+            "bps_p95": 6400351.672712471,
+            "bps_min": 0.0,
+            "bps_max": 31663551.871933132
+          },
+          "end_bytes": 40392816.0,
+          "retransmits": 764,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_173535_ues6/iperf3/uplink_tcp_ue6_12.1.1.7_20260219_173535.json",
+          "parse_ok": true,
+          "warning_prefix": null,
+          "has_warning_prefix": false,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540536,
+          "intervals_n": 60,
+          "end_present": true,
+          "end_bps": 5437451.581403325,
+          "chosen_bps": 5437451.581403325,
+          "bps": {
+            "bps_n": 60,
+            "bps_mean": 5437907.733477045,
+            "bps_p50": 5664510.83725689,
+            "bps_p95": 6337534.786215537,
+            "bps_min": 0.0,
+            "bps_max": 34941326.218543
+          },
+          "end_bytes": 40781016.0,
+          "retransmits": 407,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        }
+      ]
+    },
+    "iperf_summary": {
+      "files_n": 6,
+      "parse_fail_n": 0,
+      "missing_end_n": 0,
+      "warning_prefix_n": 0,
+      "stderr_error_n": 0,
+      "ue_bps_n": 6,
+      "total_mbps": 32.40136838392699,
+      "per_ue_mean_mbps": 5.400228063987831,
+      "fairness_jain": 0.9999046077747799
+    }
+  },
+  {
+    "run_dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12",
+    "run_name": "20260219_174039_ues12",
+    "ue_count": 12,
+    "files_present": {
+      "cu_cpu.csv": true,
+      "cu_logs.tsv": true,
+      "du_cpu.csv": true,
+      "du_logs.tsv": true,
+      "gpu_power.csv": false,
+      "gpu_util.csv": false,
+      "pids.tsv": true,
+      "run_all_monitors.launch.log": true,
+      "run_manifest.json": true,
+      "zmq_stats.tsv": true
+    },
+    "missing_files": [],
+    "manifest": {
+      "created_at": "2026-02-19T17:40:41-05:00",
+      "host": "spark-ecf8",
+      "uname": "Linux spark-ecf8 6.14.0-1015-nvidia #15-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 25 18:02:16 UTC 2025 aarch64 aarch64 aarch64 GNU/Linux",
+      "srk_root": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu",
+      "run_dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12",
+      "ue_label": "12",
+      "start_epoch_ms": 1771540841133,
+      "start_delay_ms": 100,
+      "interval_s": 0.5,
+      "docker_logs_since": "0s",
+      "zmq_host": "127.0.0.1",
+      "zmq_port": 5555,
+      "zmq_extra_args": "'' "
+    },
+    "pids": {
+      "03_cu_cpu": 297743,
+      "04_du_cpu": 297744,
+      "05_cu_logs": 297746,
+      "06_du_logs": 297748,
+      "07_zmq_client": 297749
+    },
+    "cu_cpu": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/cu_cpu.csv",
+      "rows": 20,
+      "duration_s": 56.176,
+      "cpu": {
+        "cpu_n": 20,
+        "cpu_mean": 5.5355,
+        "cpu_p50": 5.619999999999999,
+        "cpu_p95": 6.0975,
+        "cpu_min": 3.18,
+        "cpu_max": 6.43
+      },
+      "mem": {
+        "mem_n": 20,
+        "mem_mean": 0.13,
+        "mem_p50": 0.13,
+        "mem_p95": 0.13,
+        "mem_min": 0.13,
+        "mem_max": 0.13
+      },
+      "pids": {
+        "pids_n": 20,
+        "pids_mean": 16.0,
+        "pids_p50": 16.0,
+        "pids_p95": 16.0,
+        "pids_min": 16.0,
+        "pids_max": 16.0
+      }
+    },
+    "du_cpu": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/du_cpu.csv",
+      "rows": 20,
+      "duration_s": 57.179,
+      "cpu": {
+        "cpu_n": 20,
+        "cpu_mean": 152.784,
+        "cpu_p50": 153.485,
+        "cpu_p95": 158.898,
+        "cpu_min": 134.24,
+        "cpu_max": 160.0
+      },
+      "mem": {
+        "mem_n": 20,
+        "mem_mean": 0.85,
+        "mem_p50": 0.85,
+        "mem_p95": 0.85,
+        "mem_min": 0.85,
+        "mem_max": 0.85
+      },
+      "pids": {
+        "pids_n": 20,
+        "pids_mean": 22.0,
+        "pids_p50": 22.0,
+        "pids_p95": 22.0,
+        "pids_min": 22.0,
+        "pids_max": 22.0
+      }
+    },
+    "gpu_util": null,
+    "gpu_power": null,
+    "cu_logs": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/cu_logs.tsv",
+      "lines": 0,
+      "duration_s": null,
+      "error_counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      },
+      "error_examples": {
+        "error": [],
+        "assert": [],
+        "segfault": [],
+        "aborted": [],
+        "buffer_overflow": [],
+        "failed": [],
+        "timeout": []
+      }
+    },
+    "du_logs": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/du_logs.tsv",
+      "duration_s": 59.173,
+      "lines": 1178,
+      "ue_ids_count": 12,
+      "ue_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "rnti_count": 12,
+      "ldpc_impl": "cpu",
+      "ldpc_threads_assumed": 4,
+      "ldpc_threads_observed": {
+        "threads_n": 60,
+        "threads_mean": 1.0,
+        "threads_p50": 1.0,
+        "threads_p95": 1.0,
+        "threads_min": 1.0,
+        "threads_max": 1.0
+      },
+      "ldpc_decode_us": {
+        "ldpc_n": 60,
+        "ldpc_mean": 276.6566666666667,
+        "ldpc_p50": 289.51,
+        "ldpc_p95": 296.2275,
+        "ldpc_min": 99.63,
+        "ldpc_max": 298.2
+      },
+      "ldpc_decode_us_per_seg": {
+        "ldpc_seg_n": 60,
+        "ldpc_seg_mean": 40.67266666666667,
+        "ldpc_seg_p50": 35.66,
+        "ldpc_seg_p95": 83.767,
+        "ldpc_seg_min": 33.8,
+        "ldpc_seg_max": 96.51
+      },
+      "ldpc_events_per_s": 1.0139759687695402,
+      "ldpc_thread_decode_us": {
+        "ldpc_thread_n": 60,
+        "ldpc_thread_mean": 276.6566666666667,
+        "ldpc_thread_p50": 289.51,
+        "ldpc_thread_p95": 296.2275,
+        "ldpc_thread_min": 99.63,
+        "ldpc_thread_max": 298.2
+      },
+      "ldpc_thread_events_per_s": 1.0139759687695402,
+      "ldpc_cumulative_decode_us": {
+        "ldpc_cum_n": 60,
+        "ldpc_cum_mean": 1106.6266666666668,
+        "ldpc_cum_p50": 1158.04,
+        "ldpc_cum_p95": 1184.91,
+        "ldpc_cum_min": 398.52,
+        "ldpc_cum_max": 1192.8
+      },
+      "ldpc_cumulative_events_per_s": 4.055903875078161,
+      "error_counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      }
+    },
+    "zmq_stats": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/zmq_stats.tsv",
+      "lines": 5,
+      "published_lines": 0,
+      "published_max": 0,
+      "ue_lines": 0,
+      "unique_rnti_count": 0,
+      "usage_error": false,
+      "parse_errors": 0
+    },
+    "run_all_monitors_log": {
+      "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/run_all_monitors.launch.log",
+      "bytes": 1125,
+      "counts": {
+        "error": 0,
+        "assert": 0,
+        "segfault": 0,
+        "aborted": 0,
+        "buffer_overflow": 0,
+        "failed": 0,
+        "timeout": 0
+      },
+      "examples": {
+        "error": [],
+        "assert": [],
+        "segfault": [],
+        "aborted": [],
+        "buffer_overflow": [],
+        "failed": [],
+        "timeout": []
+      }
+    },
+    "iperf": {
+      "dir": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3",
+      "files": [
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue10_12.1.1.11_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue11_12.1.1.12_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue12_12.1.1.13_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue1_12.1.1.2_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue2_12.1.1.3_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue3_12.1.1.4_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue4_12.1.1.5_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue5_12.1.1.6_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue6_12.1.1.7_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue7_12.1.1.8_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue8_12.1.1.9_20260219_174039.json",
+        "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue9_12.1.1.10_20260219_174039.json"
+      ],
+      "records": [
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue10_12.1.1.11_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1315257.611722926,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1315257.611722926,
+            "bps_p50": 1424813.4862406254,
+            "bps_p95": 1494487.6470805982,
+            "bps_min": 104241.4112366686,
+            "bps_max": 1505906.5361463772
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue11_12.1.1.12_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1320897.9392999697,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1320897.9392999697,
+            "bps_p50": 1424804.9938514207,
+            "bps_p95": 1494364.529522285,
+            "bps_min": 139000.90795462078,
+            "bps_max": 1494416.7012040191
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue12_12.1.1.13_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1313240.8574664984,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1313240.8574664984,
+            "bps_p50": 1424806.3526268904,
+            "bps_p95": 1495522.9832410521,
+            "bps_min": 104238.80209277911,
+            "bps_max": 1505938.0419413107
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue1_12.1.1.2_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1313226.3185019968,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1313226.3185019968,
+            "bps_p50": 1424800.5778490421,
+            "bps_p95": 1494369.1701688909,
+            "bps_min": 92665.60401812477,
+            "bps_max": 1494460.08393007
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue2_12.1.1.3_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1315880.351336142,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1315880.351336142,
+            "bps_p50": 1424648.2425281506,
+            "bps_p95": 1495675.9924193162,
+            "bps_min": 104240.25574254683,
+            "bps_max": 1505981.757293285
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue3_12.1.1.4_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1320403.2908116938,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1320403.2908116938,
+            "bps_p50": 1413274.8718411992,
+            "bps_p95": 1505921.3553855815,
+            "bps_min": 127416.22313091242,
+            "bps_max": 1517525.25611515
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue4_12.1.1.5_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1312055.6597442555,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1312055.6597442555,
+            "bps_p50": 1424813.4862406254,
+            "bps_p95": 1495609.1206289688,
+            "bps_min": 92665.32787298736,
+            "bps_max": 1505929.0657970693
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue5_12.1.1.6_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1320403.578837295,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1320403.578837295,
+            "bps_p50": 1424823.5073900975,
+            "bps_p95": 1494391.3232467468,
+            "bps_min": 127414.4461280567,
+            "bps_max": 1506052.497160781
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue6_12.1.1.7_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1315163.3444526144,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1315163.3444526144,
+            "bps_p50": 1413351.1968126353,
+            "bps_p95": 1494353.6715798608,
+            "bps_min": 104241.4112366686,
+            "bps_max": 1529117.0744511336
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue7_12.1.1.8_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1318893.3609018184,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1318893.3609018184,
+            "bps_p50": 1424824.8662008785,
+            "bps_p95": 1505749.782708011,
+            "bps_min": 115827.6006620652,
+            "bps_max": 1505965.1505464748
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue8_12.1.1.9_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1312636.665740445,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1312636.665740445,
+            "bps_p50": 1413276.3039115735,
+            "bps_p95": 1505918.303552166,
+            "bps_min": 92663.284450122,
+            "bps_max": 1505953.1221045288
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        },
+        {
+          "path": "/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/cu-du-abl/monitor/runs/20260219_174039_ues12/iperf3/uplink_tcp_ue9_12.1.1.10_20260219_174039.json",
+          "parse_ok": true,
+          "warning_prefix": "WARNING:  Size of data read does not correspond to offered length",
+          "has_warning_prefix": true,
+          "protocol": "TCP",
+          "reverse": 1,
+          "duration_s": 60,
+          "start_timesecs": 1771540841,
+          "intervals_n": 59,
+          "end_present": false,
+          "end_bps": null,
+          "chosen_bps": 1312463.68951095,
+          "bps": {
+            "bps_n": 59,
+            "bps_mean": 1312463.68951095,
+            "bps_p50": 1424807.7114049518,
+            "bps_p95": 1494501.149600722,
+            "bps_min": 104243.9086824479,
+            "bps_max": 1505926.013932403
+          },
+          "end_bytes": null,
+          "retransmits": null,
+          "stderr_path": null,
+          "stderr_has_error": false,
+          "stderr_excerpt": null
+        }
+      ]
+    },
+    "iperf_summary": {
+      "files_n": 12,
+      "parse_fail_n": 0,
+      "missing_end_n": 12,
+      "warning_prefix_n": 12,
+      "stderr_error_n": 0,
+      "ue_bps_n": 12,
+      "total_mbps": 15.790522668326606,
+      "per_ue_mean_mbps": 1.3158768890272172,
+      "fairness_jain": 0.9999938923966437
+    }
+  }
+]

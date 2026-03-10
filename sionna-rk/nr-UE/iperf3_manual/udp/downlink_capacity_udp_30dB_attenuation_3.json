@@ -1,0 +1,23 @@
+{
+	"start":	{
+		"connected":	[],
+		"version":	"iperf 3.9",
+		"system_info":	"Linux 6b9870c4d1d1 6.14.0-1015-nvidia #15-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 25 18:02:16 UTC 2025 aarch64",
+		"timestamp":	{
+			"time":	"Mon, 19 Jan 2026 20:05:22 GMT",
+			"timesecs":	1768853122
+		},
+		"connecting_to":	{
+			"host":	"12.1.1.2",
+			"port":	5201
+		},
+		"cookie":	"ri22xosrdczkwf7as2agfqd6roeqgiywnhcn",
+		"sock_bufsize":	0,
+		"sndbuf_actual":	212992,
+		"rcvbuf_actual":	212992
+	},
+	"intervals":	[],
+	"end":	{
+	}
+}
+iperf3: error - unable to read from stream socket: Resource temporarily unavailable

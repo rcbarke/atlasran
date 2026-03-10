@@ -1,0 +1,7 @@
+# start_epoch_ms=1772064465272 srk_root=/home/ryan/aerial-dgx-spark/experiments/srk/sionna-rk python=/home/ryan/aerial-dgx-spark/experiments/srk/sionna-rk/venv/bin/python
+ts_epoch_ms	stream	line
+1772064465314	zmq_stats_client	2026-02-25 19:07:45,313 - INFO - Connected to UE stats publisher at tcp://127.0.0.1:5555
+1772064465314	zmq_stats_client	2026-02-25 19:07:45,314 - INFO - Subscribed to 'ue_stats' topic
+1772064465314	zmq_stats_client	2026-02-25 19:07:45,314 - INFO - Starting UE stats subscriber...
+1772064465314	zmq_stats_client	2026-02-25 19:07:45,314 - INFO - Waiting for UE stats data (max_messages: unlimited)
+1772064465314	zmq_stats_client	2026-02-25 19:07:45,314 - INFO - Press Ctrl+C to stop

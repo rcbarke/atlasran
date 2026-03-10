@@ -1,0 +1,1 @@
++ docker exec -it oai-ext-dn iperf3 -t 30 -i 1 -B 192.168.72.135 -c 12.1.1.2 -J

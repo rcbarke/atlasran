@@ -1,0 +1,47 @@
+# start_epoch_ms=1771540536171 srk_root=/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu python=/home/ryan/aerial-dgx-spark/experiments/srk/oai-cpu/venv/bin/python
+ts_epoch_ms	stream	line
+1771540536202	zmq_stats_client	2026-02-19 17:35:36,202 - INFO - Connected to UE stats publisher at tcp://127.0.0.1:5555
+1771540536202	zmq_stats_client	2026-02-19 17:35:36,202 - INFO - Subscribed to 'ue_stats' topic
+1771540536202	zmq_stats_client	2026-02-19 17:35:36,202 - INFO - Starting UE stats subscriber...
+1771540536202	zmq_stats_client	2026-02-19 17:35:36,202 - INFO - Waiting for UE stats data (max_messages: unlimited)
+1771540536202	zmq_stats_client	2026-02-19 17:35:36,202 - INFO - Press Ctrl+C to stop
+1771540536502	zmq_stats_client	2026-02-19 17:35:36,502 - INFO - Received UE stats #1: 6 UEs at timestamp 1771540536161
+1771540536503	zmq_stats_client	
+1771540536503	zmq_stats_client	--- UE Stats #1 (TS: 1771540536161) ---
+1771540536503	zmq_stats_client	UE 0, RNTI 37847 (0x93d7): MCS ↑0/↓0, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓5, PRBs(delta) ↑0/↓5, PRBs(cum) ↑5982/↓735
+1771540536503	zmq_stats_client	UE 1, RNTI 56575 (0xdcff): MCS ↑0/↓0, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓0, PRBs(delta) ↑0/↓0, PRBs(cum) ↑4304/↓547
+1771540536503	zmq_stats_client	UE 2, RNTI 27655 (0x6c07): MCS ↑0/↓0, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓0, PRBs(delta) ↑0/↓0, PRBs(cum) ↑3747/↓472
+1771540536503	zmq_stats_client	UE 3, RNTI 14746 (0x399a): MCS ↑0/↓0, BLER ↑0.000/↓0.001, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓0, PRBs(delta) ↑0/↓0, PRBs(cum) ↑3187/↓409
+1771540536503	zmq_stats_client	UE 4, RNTI 54952 (0xd6a8): MCS ↑0/↓0, BLER ↑0.000/↓0.003, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓0, PRBs(delta) ↑0/↓0, PRBs(cum) ↑2582/↓362
+1771540536503	zmq_stats_client	UE 5, RNTI 13141 (0x3355): MCS ↑0/↓0, BLER ↑0.000/↓0.005, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓0, PRBs(delta) ↑0/↓0, PRBs(cum) ↑2297/↓334
+1771540536503	zmq_stats_client	---
+1771540537003	zmq_stats_client	2026-02-19 17:35:37,003 - INFO - Received UE stats #2: 6 UEs at timestamp 1771540536661
+1771540537003	zmq_stats_client	
+1771540537003	zmq_stats_client	--- UE Stats #2 (TS: 1771540536661) ---
+1771540537003	zmq_stats_client	UE 0, RNTI 37847 (0x93d7): MCS ↑2/↓2, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓16, PRBs(max) ↑0/↓46, PRBs(delta) ↑0/↓631, PRBs(cum) ↑8373/↓1054
+1771540537003	zmq_stats_client	UE 1, RNTI 56575 (0xdcff): MCS ↑2/↓1, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓45, PRBs(delta) ↑0/↓295, PRBs(cum) ↑6605/↓863
+1771540537003	zmq_stats_client	UE 2, RNTI 27655 (0x6c07): MCS ↑2/↓2, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓58, PRBs(delta) ↑0/↓471, PRBs(cum) ↑5736/↓765
+1771540537003	zmq_stats_client	UE 3, RNTI 14746 (0x399a): MCS ↑2/↓2, BLER ↑0.000/↓0.001, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓48, PRBs(delta) ↑0/↓384, PRBs(cum) ↑4945/↓701
+1771540537003	zmq_stats_client	UE 4, RNTI 54952 (0xd6a8): MCS ↑2/↓2, BLER ↑0.000/↓0.002, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓43, PRBs(delta) ↑0/↓698, PRBs(cum) ↑4870/↓686
+1771540537003	zmq_stats_client	UE 5, RNTI 13141 (0x3355): MCS ↑3/↓2, BLER ↑0.000/↓0.004, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓39, PRBs(delta) ↑0/↓387, PRBs(cum) ↑4161/↓634
+1771540537003	zmq_stats_client	---
+1771540537504	zmq_stats_client	2026-02-19 17:35:37,504 - INFO - Received UE stats #3: 6 UEs at timestamp 1771540537161
+1771540537504	zmq_stats_client	
+1771540537504	zmq_stats_client	--- UE Stats #3 (TS: 1771540537161) ---
+1771540537504	zmq_stats_client	UE 0, RNTI 37847 (0x93d7): MCS ↑5/↓4, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓16, PRBs(delta) ↑0/↓472, PRBs(cum) ↑13861/↓1241
+1771540537504	zmq_stats_client	UE 1, RNTI 56575 (0xdcff): MCS ↑5/↓4, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓16, PRBs(delta) ↑0/↓367, PRBs(cum) ↑10939/↓1071
+1771540537504	zmq_stats_client	UE 2, RNTI 27655 (0x6c07): MCS ↑5/↓4, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓16, PRBs(delta) ↑0/↓423, PRBs(cum) ↑10458/↓984
+1771540537504	zmq_stats_client	UE 3, RNTI 14746 (0x399a): MCS ↑5/↓5, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓12, PRBs(delta) ↑0/↓370, PRBs(cum) ↑9691/↓897
+1771540537504	zmq_stats_client	UE 4, RNTI 54952 (0xd6a8): MCS ↑5/↓4, BLER ↑0.000/↓0.002, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓16, PRBs(delta) ↑0/↓547, PRBs(cum) ↑9616/↓914
+1771540537504	zmq_stats_client	UE 5, RNTI 13141 (0x3355): MCS ↑5/↓4, BLER ↑0.000/↓0.003, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓16, PRBs(delta) ↑0/↓435, PRBs(cum) ↑8801/↓840
+1771540537504	zmq_stats_client	---
+1771540538005	zmq_stats_client	2026-02-19 17:35:38,005 - INFO - Received UE stats #4: 6 UEs at timestamp 1771540537661
+1771540538005	zmq_stats_client	
+1771540538005	zmq_stats_client	--- UE Stats #4 (TS: 1771540537661) ---
+1771540538005	zmq_stats_client	UE 0, RNTI 37847 (0x93d7): MCS ↑8/↓7, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓12, PRBs(delta) ↑0/↓395, PRBs(cum) ↑18395/↓1455
+1771540538005	zmq_stats_client	UE 1, RNTI 56575 (0xdcff): MCS ↑7/↓6, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓10, PRBs(delta) ↑0/↓328, PRBs(cum) ↑15685/↓1258
+1771540538005	zmq_stats_client	UE 2, RNTI 27655 (0x6c07): MCS ↑8/↓7, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓11, PRBs(delta) ↑0/↓571, PRBs(cum) ↑15746/↓1221
+1771540538005	zmq_stats_client	UE 3, RNTI 14746 (0x399a): MCS ↑8/↓7, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓8, PRBs(delta) ↑0/↓384, PRBs(cum) ↑14707/↓1111
+1771540538005	zmq_stats_client	UE 4, RNTI 54952 (0xd6a8): MCS ↑8/↓7, BLER ↑0.000/↓0.001, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓12, PRBs(delta) ↑0/↓401, PRBs(cum) ↑14362/↓1122
+1771540538005	zmq_stats_client	UE 5, RNTI 13141 (0x3355): MCS ↑8/↓7, BLER ↑0.000/↓0.002, PRBs(inst) ↑0/↓0, PRBs(max) ↑0/↓14, PRBs(delta) ↑0/↓669, PRBs(cum) ↑13559/↓1084
+1771540538005	zmq_stats_client	---

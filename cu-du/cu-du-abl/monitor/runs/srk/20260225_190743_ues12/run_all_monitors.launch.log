@@ -1,0 +1,32 @@
+Run directory: /home/ryan/aerial-dgx-spark/experiments/srk/sionna-rk/cu-du-abl/monitor/runs/20260225_190743_ues12
+SRK root:      /home/ryan/aerial-dgx-spark/experiments/srk/sionna-rk
+UE label:      12
+Start epoch:   1772064465271 (epoch ms)
+Interval:      0.5 s
+docker --since 0s
+ZMQ:           127.0.0.1:5555
+Duration:      60 s
+
+Started: 01_gpu_util (pid=582337)
+Started: 02_gpu_power (pid=582338)
+Started: 03_cu_cpu (pid=582339)
+Started: 04_du_cpu (pid=582340)
+Started: 05_cu_logs (pid=582341)
+Started: 06_du_logs (pid=582345)
+Started: 07_zmq_client (pid=582346)
+Started: 08_system_cpu (pid=582349)
+
+All monitors started. PID list: /home/ryan/aerial-dgx-spark/experiments/srk/sionna-rk/cu-du-abl/monitor/runs/20260225_190743_ues12/pids.tsv
+Manifest: /home/ryan/aerial-dgx-spark/experiments/srk/sionna-rk/cu-du-abl/monitor/runs/20260225_190743_ues12/run_manifest.json
+
+
+Stopping monitors...
+  Killing 01_gpu_util (pid=582337)
+  Killing 02_gpu_power (pid=582338)
+  Killing 03_cu_cpu (pid=582339)
+  Killing 04_du_cpu (pid=582340)
+  Killing 05_cu_logs (pid=582341)
+  Killing 06_du_logs (pid=582345)
+  Killing 07_zmq_client (pid=582346)
+  Killing 08_system_cpu (pid=582349)
+Done. Outputs in: /home/ryan/aerial-dgx-spark/experiments/srk/sionna-rk/cu-du-abl/monitor/runs/20260225_190743_ues12

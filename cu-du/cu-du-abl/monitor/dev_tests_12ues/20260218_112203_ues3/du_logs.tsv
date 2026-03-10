@@ -1,0 +1,1146 @@
+# start_epoch_ms=1771431724215 container=oai-nr-du since=0s
+ts_epoch_ms	container	log_line
+1771431727612	oai-nr-du	255534.414021 [NR_MAC] I Frame.Slot 0.0
+1771431727612	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE bb4a: dlsch_rounds 14714/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 9 CCE fail 1440
+1771431727612	oai-nr-du	UE bb4a: ulsch_rounds 23385/69/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 177
+1771431727612	oai-nr-du	UE bb4a: MAC:    TX        6112202 RX      137781961 bytes
+1771431727612	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431727612	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE bb4a: LCID 4: TX        1948012 RX      137187103 bytes
+1771431727612	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE 0664: dlsch_rounds 2201/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 9 CCE fail 91
+1771431727612	oai-nr-du	UE 0664: ulsch_rounds 6495/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 4
+1771431727612	oai-nr-du	UE 0664: MAC:    TX         716725 RX       13133177 bytes
+1771431727612	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431727612	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE 0664: LCID 4: TX         213744 RX       12982537 bytes
+1771431727612	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE 3162: dlsch_rounds 2282/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 9 CCE fail 183
+1771431727612	oai-nr-du	UE 3162: ulsch_rounds 6467/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 9 (Qm 2 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 6
+1771431727612	oai-nr-du	UE 3162: MAC:    TX         756922 RX       14100492 bytes
+1771431727612	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431727612	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE 3162: LCID 4: TX         225212 RX       13938811 bytes
+1771431727612	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE 82df: dlsch_rounds 2202/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431727612	oai-nr-du	UE 82df: ulsch_rounds 6134/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 11
+1771431727612	oai-nr-du	UE 82df: MAC:    TX         783459 RX       14241793 bytes
+1771431727612	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431727612	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431727612	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE f2a7: dlsch_rounds 2089/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 315
+1771431727612	oai-nr-du	UE f2a7: ulsch_rounds 5945/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431727612	oai-nr-du	UE f2a7: MAC:    TX         743277 RX       13389877 bytes
+1771431727612	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431727612	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431727612	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE 3520: dlsch_rounds 2143/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431727612	oai-nr-du	UE 3520: ulsch_rounds 5902/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431727612	oai-nr-du	UE 3520: MAC:    TX         767313 RX       13800016 bytes
+1771431727612	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431727612	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431727612	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE edb5: dlsch_rounds 2027/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 116
+1771431727612	oai-nr-du	UE edb5: ulsch_rounds 5773/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 398
+1771431727612	oai-nr-du	UE edb5: MAC:    TX         711685 RX       12976309 bytes
+1771431727612	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431727612	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431727612	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE 1a77: dlsch_rounds 2099/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 428
+1771431727612	oai-nr-du	UE 1a77: ulsch_rounds 5817/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 725
+1771431727612	oai-nr-du	UE 1a77: MAC:    TX         741572 RX       13797607 bytes
+1771431727612	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431727612	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431727612	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE 1275: dlsch_rounds 2038/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 212
+1771431727612	oai-nr-du	UE 1275: ulsch_rounds 5703/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1158
+1771431727612	oai-nr-du	UE 1275: MAC:    TX         716356 RX       13108102 bytes
+1771431727612	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431727612	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431727612	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE 1ff6: dlsch_rounds 2123/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 193
+1771431727612	oai-nr-du	UE 1ff6: ulsch_rounds 5758/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 663
+1771431727612	oai-nr-du	UE 1ff6: MAC:    TX         766394 RX       13794597 bytes
+1771431727612	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431727612	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431727612	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE 6195: dlsch_rounds 2104/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 312
+1771431727612	oai-nr-du	UE 6195: ulsch_rounds 5678/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 43.0 dB CCE fail 1382
+1771431727612	oai-nr-du	UE 6195: MAC:    TX         760346 RX       13665276 bytes
+1771431727612	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431727612	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431727612	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431727612	oai-nr-du	UE afed: dlsch_rounds 2015/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 240
+1771431727612	oai-nr-du	UE afed: ulsch_rounds 5579/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431727612	oai-nr-du	UE afed: MAC:    TX         717625 RX       12969254 bytes
+1771431727612	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431727612	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431727612	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431727612	oai-nr-du	
+1771431727632	oai-nr-du	255534.433894 [NR_PHY] I CUDA LDPC decoder:    176.42 us (    94.17 us / seg)
+1771431727632	oai-nr-du	
+1771431732298	oai-nr-du	255539.100250 [NR_MAC] I Frame.Slot 128.0
+1771431732298	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE bb4a: dlsch_rounds 15052/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 21 CCE fail 1453
+1771431732298	oai-nr-du	UE bb4a: ulsch_rounds 23812/69/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 22 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 183
+1771431732298	oai-nr-du	UE bb4a: MAC:    TX        6179651 RX      139268640 bytes
+1771431732298	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431732298	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE bb4a: LCID 4: TX        1974184 RX      138668299 bytes
+1771431732298	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE 0664: dlsch_rounds 2541/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 21 CCE fail 109
+1771431732298	oai-nr-du	UE 0664: ulsch_rounds 6917/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 22 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 9
+1771431732298	oai-nr-du	UE 0664: MAC:    TX         784605 RX       14607586 bytes
+1771431732298	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431732298	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE 0664: LCID 4: TX         238234 RX       14451503 bytes
+1771431732298	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE 3162: dlsch_rounds 2623/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 22 CCE fail 199
+1771431732298	oai-nr-du	UE 3162: ulsch_rounds 6898/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 22 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 14
+1771431732298	oai-nr-du	UE 3162: MAC:    TX         826340 RX       15579873 bytes
+1771431732298	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431732298	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE 3162: LCID 4: TX         251964 RX       15412719 bytes
+1771431732298	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE 82df: dlsch_rounds 2203/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431732298	oai-nr-du	UE 82df: ulsch_rounds 6147/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 11
+1771431732298	oai-nr-du	UE 82df: MAC:    TX         783480 RX       14242053 bytes
+1771431732298	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431732298	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431732298	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE f2a7: dlsch_rounds 2091/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 316
+1771431732298	oai-nr-du	UE f2a7: ulsch_rounds 5958/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431732298	oai-nr-du	UE f2a7: MAC:    TX         743319 RX       13390137 bytes
+1771431732298	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431732298	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431732298	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE 3520: dlsch_rounds 2145/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431732298	oai-nr-du	UE 3520: ulsch_rounds 5915/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431732298	oai-nr-du	UE 3520: MAC:    TX         767355 RX       13800276 bytes
+1771431732298	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431732298	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431732298	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE edb5: dlsch_rounds 2028/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 117
+1771431732298	oai-nr-du	UE edb5: ulsch_rounds 5786/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 398
+1771431732298	oai-nr-du	UE edb5: MAC:    TX         711706 RX       12976569 bytes
+1771431732298	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431732298	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431732298	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE 1a77: dlsch_rounds 2100/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 428
+1771431732298	oai-nr-du	UE 1a77: ulsch_rounds 5830/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 725
+1771431732298	oai-nr-du	UE 1a77: MAC:    TX         741593 RX       13797867 bytes
+1771431732298	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431732298	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431732298	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE 1275: dlsch_rounds 2040/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 213
+1771431732298	oai-nr-du	UE 1275: ulsch_rounds 5716/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 1158
+1771431732298	oai-nr-du	UE 1275: MAC:    TX         716398 RX       13108362 bytes
+1771431732298	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431732298	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431732298	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE 1ff6: dlsch_rounds 2125/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 195
+1771431732298	oai-nr-du	UE 1ff6: ulsch_rounds 5771/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 48.0 dB CCE fail 663
+1771431732298	oai-nr-du	UE 1ff6: MAC:    TX         766436 RX       13794857 bytes
+1771431732298	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431732298	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431732298	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE 6195: dlsch_rounds 2105/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 312
+1771431732298	oai-nr-du	UE 6195: ulsch_rounds 5691/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 45.0 dB CCE fail 1382
+1771431732298	oai-nr-du	UE 6195: MAC:    TX         760367 RX       13665536 bytes
+1771431732298	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431732298	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431732298	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431732298	oai-nr-du	UE afed: dlsch_rounds 2017/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 242
+1771431732298	oai-nr-du	UE afed: ulsch_rounds 5592/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431732298	oai-nr-du	UE afed: MAC:    TX         717667 RX       12969514 bytes
+1771431732298	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431732298	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431732298	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431732298	oai-nr-du	
+1771431732319	oai-nr-du	255539.121166 [NR_PHY] I CUDA LDPC decoder:    236.79 us (    75.19 us / seg)
+1771431732319	oai-nr-du	
+1771431736875	oai-nr-du	255543.676852 [NR_MAC] I Frame.Slot 256.0
+1771431736875	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE bb4a: dlsch_rounds 15403/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1467
+1771431736875	oai-nr-du	UE bb4a: ulsch_rounds 24243/72/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00603 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 190
+1771431736875	oai-nr-du	UE bb4a: MAC:    TX        6329962 RX      142472675 bytes
+1771431736875	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431736875	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE bb4a: LCID 4: TX        2024022 RX      141860346 bytes
+1771431736875	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE 0664: dlsch_rounds 2880/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 120
+1771431736875	oai-nr-du	UE 0664: ulsch_rounds 7337/6/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01189 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 13
+1771431736875	oai-nr-du	UE 0664: MAC:    TX         929623 RX       17778139 bytes
+1771431736875	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431736875	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE 0664: LCID 4: TX         288997 RX       17610958 bytes
+1771431736875	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE 3162: dlsch_rounds 2976/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 221
+1771431736875	oai-nr-du	UE 3162: ulsch_rounds 7322/6/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00915 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 26
+1771431736875	oai-nr-du	UE 3162: MAC:    TX         977578 RX       18764821 bytes
+1771431736875	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431736875	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE 3162: LCID 4: TX         308472 RX       18587296 bytes
+1771431736875	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE 82df: dlsch_rounds 2204/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431736875	oai-nr-du	UE 82df: ulsch_rounds 6160/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 11
+1771431736875	oai-nr-du	UE 82df: MAC:    TX         783501 RX       14242313 bytes
+1771431736875	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431736875	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431736875	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE f2a7: dlsch_rounds 2092/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 317
+1771431736875	oai-nr-du	UE f2a7: ulsch_rounds 5971/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431736875	oai-nr-du	UE f2a7: MAC:    TX         743340 RX       13390397 bytes
+1771431736875	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431736875	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431736875	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE 3520: dlsch_rounds 2146/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431736875	oai-nr-du	UE 3520: ulsch_rounds 5928/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431736875	oai-nr-du	UE 3520: MAC:    TX         767376 RX       13800536 bytes
+1771431736875	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431736875	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431736875	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE edb5: dlsch_rounds 2030/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 119
+1771431736875	oai-nr-du	UE edb5: ulsch_rounds 5799/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 398
+1771431736875	oai-nr-du	UE edb5: MAC:    TX         711748 RX       12976829 bytes
+1771431736875	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431736875	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431736875	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE 1a77: dlsch_rounds 2101/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 429
+1771431736875	oai-nr-du	UE 1a77: ulsch_rounds 5842/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 725
+1771431736875	oai-nr-du	UE 1a77: MAC:    TX         741614 RX       13798107 bytes
+1771431736875	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431736875	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431736875	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE 1275: dlsch_rounds 2041/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 213
+1771431736875	oai-nr-du	UE 1275: ulsch_rounds 5729/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1158
+1771431736875	oai-nr-du	UE 1275: MAC:    TX         716419 RX       13108622 bytes
+1771431736875	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431736875	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431736875	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE 1ff6: dlsch_rounds 2126/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 196
+1771431736875	oai-nr-du	UE 1ff6: ulsch_rounds 5783/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 663
+1771431736875	oai-nr-du	UE 1ff6: MAC:    TX         766457 RX       13795097 bytes
+1771431736875	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431736875	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431736875	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE 6195: dlsch_rounds 2107/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 313
+1771431736875	oai-nr-du	UE 6195: ulsch_rounds 5704/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 43.0 dB CCE fail 1382
+1771431736875	oai-nr-du	UE 6195: MAC:    TX         760409 RX       13665796 bytes
+1771431736875	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431736875	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431736875	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431736875	oai-nr-du	UE afed: dlsch_rounds 2018/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 243
+1771431736875	oai-nr-du	UE afed: ulsch_rounds 5604/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431736875	oai-nr-du	UE afed: MAC:    TX         717688 RX       12969754 bytes
+1771431736875	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431736875	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431736875	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431736875	oai-nr-du	
+1771431736895	oai-nr-du	255543.697497 [NR_PHY] I CUDA LDPC decoder:    338.90 us (    67.80 us / seg)
+1771431736895	oai-nr-du	
+1771431741501	oai-nr-du	255548.302700 [NR_MAC] I Frame.Slot 384.0
+1771431741501	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE bb4a: dlsch_rounds 15738/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1485
+1771431741501	oai-nr-du	UE bb4a: ulsch_rounds 24659/85/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02564 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 207
+1771431741501	oai-nr-du	UE bb4a: MAC:    TX        6488820 RX      145847905 bytes
+1771431741501	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431741501	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE bb4a: LCID 4: TX        2088442 RX      145225385 bytes
+1771431741501	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE 0664: dlsch_rounds 3221/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 136
+1771431741501	oai-nr-du	UE 0664: ulsch_rounds 7767/15/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01896 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 96  SNR 50.5 dB CCE fail 13
+1771431741501	oai-nr-du	UE 0664: MAC:    TX        1090453 RX       21171664 bytes
+1771431741501	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431741501	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE 0664: LCID 4: TX         356017 RX       20994202 bytes
+1771431741501	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE 3162: dlsch_rounds 3309/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 234
+1771431741501	oai-nr-du	UE 3162: ulsch_rounds 7743/17/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01876 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 42
+1771431741501	oai-nr-du	UE 3162: MAC:    TX        1135992 RX       22160293 bytes
+1771431741501	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431741501	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE 3162: LCID 4: TX         377837 RX       21972503 bytes
+1771431741501	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE 82df: dlsch_rounds 2206/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431741501	oai-nr-du	UE 82df: ulsch_rounds 6173/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 11
+1771431741501	oai-nr-du	UE 82df: MAC:    TX         783543 RX       14242573 bytes
+1771431741501	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431741501	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431741501	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE f2a7: dlsch_rounds 2093/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 318
+1771431741501	oai-nr-du	UE f2a7: ulsch_rounds 5984/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431741501	oai-nr-du	UE f2a7: MAC:    TX         743361 RX       13390657 bytes
+1771431741501	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431741501	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431741501	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE 3520: dlsch_rounds 2147/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431741501	oai-nr-du	UE 3520: ulsch_rounds 5941/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431741501	oai-nr-du	UE 3520: MAC:    TX         767397 RX       13800796 bytes
+1771431741501	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431741501	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431741501	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE edb5: dlsch_rounds 2031/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 120
+1771431741501	oai-nr-du	UE edb5: ulsch_rounds 5811/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 398
+1771431741501	oai-nr-du	UE edb5: MAC:    TX         711769 RX       12977069 bytes
+1771431741501	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431741501	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431741501	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE 1a77: dlsch_rounds 2103/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 431
+1771431741501	oai-nr-du	UE 1a77: ulsch_rounds 5855/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 725
+1771431741501	oai-nr-du	UE 1a77: MAC:    TX         741656 RX       13798367 bytes
+1771431741501	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431741501	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431741501	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE 1275: dlsch_rounds 2042/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 214
+1771431741501	oai-nr-du	UE 1275: ulsch_rounds 5742/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1158
+1771431741501	oai-nr-du	UE 1275: MAC:    TX         716440 RX       13108882 bytes
+1771431741501	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431741501	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431741501	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE 1ff6: dlsch_rounds 2127/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 197
+1771431741501	oai-nr-du	UE 1ff6: ulsch_rounds 5796/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 663
+1771431741501	oai-nr-du	UE 1ff6: MAC:    TX         766478 RX       13795357 bytes
+1771431741501	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431741501	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431741501	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE 6195: dlsch_rounds 2108/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 314
+1771431741501	oai-nr-du	UE 6195: ulsch_rounds 5717/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1382
+1771431741501	oai-nr-du	UE 6195: MAC:    TX         760430 RX       13666056 bytes
+1771431741501	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431741501	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431741501	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431741501	oai-nr-du	UE afed: dlsch_rounds 2019/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 244
+1771431741501	oai-nr-du	UE afed: ulsch_rounds 5617/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431741501	oai-nr-du	UE afed: MAC:    TX         717709 RX       12970014 bytes
+1771431741501	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431741501	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431741501	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431741501	oai-nr-du	
+1771431741520	oai-nr-du	255548.322140 [NR_PHY] I CUDA LDPC decoder:    352.12 us (    67.53 us / seg)
+1771431741520	oai-nr-du	
+1771431746119	oai-nr-du	255552.921301 [NR_MAC] I Frame.Slot 512.0
+1771431746119	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746119	oai-nr-du	UE bb4a: dlsch_rounds 16087/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1502
+1771431746119	oai-nr-du	UE bb4a: ulsch_rounds 25082/90/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01589 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 221
+1771431746119	oai-nr-du	UE bb4a: MAC:    TX        6648973 RX      149296932 bytes
+1771431746119	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431746119	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431746119	oai-nr-du	UE bb4a: LCID 4: TX        2138927 RX      148664032 bytes
+1771431746119	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746119	oai-nr-du	UE 0664: dlsch_rounds 3569/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 147
+1771431746120	oai-nr-du	UE 0664: ulsch_rounds 8199/23/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02026 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 18
+1771431746120	oai-nr-du	UE 0664: MAC:    TX        1251842 RX       24588639 bytes
+1771431746120	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431746120	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE 0664: LCID 4: TX         403660 RX       24398599 bytes
+1771431746120	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746120	oai-nr-du	UE 3162: dlsch_rounds 3649/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 249
+1771431746120	oai-nr-du	UE 3162: ulsch_rounds 8156/26/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02505 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 53
+1771431746120	oai-nr-du	UE 3162: MAC:    TX        1291380 RX       25562888 bytes
+1771431746120	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431746120	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE 3162: LCID 4: TX         422363 RX       25364857 bytes
+1771431746120	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746120	oai-nr-du	UE 82df: dlsch_rounds 2207/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431746120	oai-nr-du	UE 82df: ulsch_rounds 6185/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 11
+1771431746120	oai-nr-du	UE 82df: MAC:    TX         783564 RX       14242813 bytes
+1771431746120	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431746120	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431746120	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746120	oai-nr-du	UE f2a7: dlsch_rounds 2094/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 319
+1771431746120	oai-nr-du	UE f2a7: ulsch_rounds 5996/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431746120	oai-nr-du	UE f2a7: MAC:    TX         743382 RX       13390897 bytes
+1771431746120	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431746120	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431746120	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746120	oai-nr-du	UE 3520: dlsch_rounds 2148/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431746120	oai-nr-du	UE 3520: ulsch_rounds 5953/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431746120	oai-nr-du	UE 3520: MAC:    TX         767418 RX       13801036 bytes
+1771431746120	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431746120	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431746120	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746120	oai-nr-du	UE edb5: dlsch_rounds 2032/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 121
+1771431746120	oai-nr-du	UE edb5: ulsch_rounds 5824/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 398
+1771431746120	oai-nr-du	UE edb5: MAC:    TX         711790 RX       12977329 bytes
+1771431746120	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431746120	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431746120	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746120	oai-nr-du	UE 1a77: dlsch_rounds 2104/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 432
+1771431746120	oai-nr-du	UE 1a77: ulsch_rounds 5868/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 725
+1771431746120	oai-nr-du	UE 1a77: MAC:    TX         741677 RX       13798627 bytes
+1771431746120	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431746120	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431746120	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746120	oai-nr-du	UE 1275: dlsch_rounds 2044/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 214
+1771431746120	oai-nr-du	UE 1275: ulsch_rounds 5754/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1158
+1771431746120	oai-nr-du	UE 1275: MAC:    TX         716482 RX       13109122 bytes
+1771431746120	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431746120	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431746120	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746120	oai-nr-du	UE 1ff6: dlsch_rounds 2129/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 199
+1771431746120	oai-nr-du	UE 1ff6: ulsch_rounds 5809/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 663
+1771431746120	oai-nr-du	UE 1ff6: MAC:    TX         766520 RX       13795617 bytes
+1771431746120	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431746120	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431746120	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746120	oai-nr-du	UE 6195: dlsch_rounds 2109/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 315
+1771431746120	oai-nr-du	UE 6195: ulsch_rounds 5729/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1382
+1771431746120	oai-nr-du	UE 6195: MAC:    TX         760451 RX       13666296 bytes
+1771431746120	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431746120	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431746120	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431746120	oai-nr-du	UE afed: dlsch_rounds 2020/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 245
+1771431746120	oai-nr-du	UE afed: ulsch_rounds 5630/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431746120	oai-nr-du	UE afed: MAC:    TX         717730 RX       12970274 bytes
+1771431746120	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431746120	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431746120	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431746120	oai-nr-du	
+1771431746138	oai-nr-du	255552.940056 [NR_PHY] I CUDA LDPC decoder:    360.77 us (    70.10 us / seg)
+1771431746138	oai-nr-du	
+1771431750726	oai-nr-du	255557.528325 [NR_MAC] I Frame.Slot 640.0
+1771431750726	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750726	oai-nr-du	UE bb4a: dlsch_rounds 16433/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1527
+1771431750726	oai-nr-du	UE bb4a: ulsch_rounds 25514/96/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01307 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 234
+1771431750726	oai-nr-du	UE bb4a: MAC:    TX        6807920 RX      152728444 bytes
+1771431750726	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431750727	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE bb4a: LCID 4: TX        2178276 RX      152080714 bytes
+1771431750727	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE 0664: dlsch_rounds 3906/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 163
+1771431750727	oai-nr-du	UE 0664: ulsch_rounds 8617/33/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02299 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 20
+1771431750727	oai-nr-du	UE 0664: MAC:    TX        1405954 RX       27983015 bytes
+1771431750727	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431750727	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE 0664: LCID 4: TX         442545 RX       27776063 bytes
+1771431750727	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE 3162: dlsch_rounds 3980/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 261
+1771431750727	oai-nr-du	UE 3162: ulsch_rounds 8576/37/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02795 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 66
+1771431750727	oai-nr-du	UE 3162: MAC:    TX        1442123 RX       28956495 bytes
+1771431750727	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431750727	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE 3162: LCID 4: TX         460375 RX       28747276 bytes
+1771431750727	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE 82df: dlsch_rounds 2208/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431750727	oai-nr-du	UE 82df: ulsch_rounds 6198/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 11
+1771431750727	oai-nr-du	UE 82df: MAC:    TX         783585 RX       14243073 bytes
+1771431750727	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431750727	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431750727	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE f2a7: dlsch_rounds 2096/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 320
+1771431750727	oai-nr-du	UE f2a7: ulsch_rounds 6009/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431750727	oai-nr-du	UE f2a7: MAC:    TX         743424 RX       13391157 bytes
+1771431750727	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431750727	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431750727	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE 3520: dlsch_rounds 2150/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431750727	oai-nr-du	UE 3520: ulsch_rounds 5966/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431750727	oai-nr-du	UE 3520: MAC:    TX         767460 RX       13801296 bytes
+1771431750727	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431750727	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431750727	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE edb5: dlsch_rounds 2033/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 122
+1771431750727	oai-nr-du	UE edb5: ulsch_rounds 5837/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 398
+1771431750727	oai-nr-du	UE edb5: MAC:    TX         711811 RX       12977589 bytes
+1771431750727	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431750727	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431750727	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE 1a77: dlsch_rounds 2105/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 432
+1771431750727	oai-nr-du	UE 1a77: ulsch_rounds 5881/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 725
+1771431750727	oai-nr-du	UE 1a77: MAC:    TX         741698 RX       13798887 bytes
+1771431750727	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431750727	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431750727	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE 1275: dlsch_rounds 2045/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 214
+1771431750727	oai-nr-du	UE 1275: ulsch_rounds 5767/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1158
+1771431750727	oai-nr-du	UE 1275: MAC:    TX         716503 RX       13109382 bytes
+1771431750727	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431750727	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431750727	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE 1ff6: dlsch_rounds 2130/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 200
+1771431750727	oai-nr-du	UE 1ff6: ulsch_rounds 5822/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 663
+1771431750727	oai-nr-du	UE 1ff6: MAC:    TX         766541 RX       13795877 bytes
+1771431750727	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431750727	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431750727	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE 6195: dlsch_rounds 2111/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 317
+1771431750727	oai-nr-du	UE 6195: ulsch_rounds 5742/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 43.0 dB CCE fail 1382
+1771431750727	oai-nr-du	UE 6195: MAC:    TX         760493 RX       13666556 bytes
+1771431750727	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431750727	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431750727	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431750727	oai-nr-du	UE afed: dlsch_rounds 2022/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 247
+1771431750727	oai-nr-du	UE afed: ulsch_rounds 5643/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431750727	oai-nr-du	UE afed: MAC:    TX         717772 RX       12970534 bytes
+1771431750727	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431750727	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431750727	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431750727	oai-nr-du	
+1771431750747	oai-nr-du	255557.548837 [NR_PHY] I CUDA LDPC decoder:    356.02 us (    68.53 us / seg)
+1771431750747	oai-nr-du	
+1771431755353	oai-nr-du	255562.155069 [NR_MAC] I Frame.Slot 768.0
+1771431755353	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE bb4a: dlsch_rounds 16797/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1580
+1771431755353	oai-nr-du	UE bb4a: ulsch_rounds 25934/107/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02224 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 245
+1771431755353	oai-nr-du	UE bb4a: MAC:    TX        6982436 RX      156116354 bytes
+1771431755353	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431755353	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE bb4a: LCID 4: TX        2228966 RX      155456176 bytes
+1771431755353	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE 0664: dlsch_rounds 4253/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 184
+1771431755353	oai-nr-du	UE 0664: ulsch_rounds 9041/42/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02360 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 25
+1771431755353	oai-nr-du	UE 0664: MAC:    TX        1563425 RX       31390023 bytes
+1771431755353	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431755353	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE 0664: LCID 4: TX         481702 RX       31170557 bytes
+1771431755353	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE 3162: dlsch_rounds 4325/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 282
+1771431755353	oai-nr-du	UE 3162: ulsch_rounds 8999/43/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01763 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 96  SNR 41.5 dB CCE fail 78
+1771431755353	oai-nr-du	UE 3162: MAC:    TX        1600855 RX       32381819 bytes
+1771431755353	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431755353	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE 3162: LCID 4: TX         501986 RX       32160046 bytes
+1771431755353	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE 82df: dlsch_rounds 2210/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431755353	oai-nr-du	UE 82df: ulsch_rounds 6211/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 11
+1771431755353	oai-nr-du	UE 82df: MAC:    TX         783627 RX       14243333 bytes
+1771431755353	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431755353	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431755353	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE f2a7: dlsch_rounds 2097/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 320
+1771431755353	oai-nr-du	UE f2a7: ulsch_rounds 6022/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431755353	oai-nr-du	UE f2a7: MAC:    TX         743445 RX       13391417 bytes
+1771431755353	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431755353	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431755353	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE 3520: dlsch_rounds 2151/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431755353	oai-nr-du	UE 3520: ulsch_rounds 5979/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431755353	oai-nr-du	UE 3520: MAC:    TX         767481 RX       13801556 bytes
+1771431755353	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431755353	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431755353	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE edb5: dlsch_rounds 2035/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 124
+1771431755353	oai-nr-du	UE edb5: ulsch_rounds 5850/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 398
+1771431755353	oai-nr-du	UE edb5: MAC:    TX         711853 RX       12977849 bytes
+1771431755353	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431755353	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431755353	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE 1a77: dlsch_rounds 2106/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 432
+1771431755353	oai-nr-du	UE 1a77: ulsch_rounds 5894/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 725
+1771431755353	oai-nr-du	UE 1a77: MAC:    TX         741719 RX       13799147 bytes
+1771431755353	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431755353	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431755353	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE 1275: dlsch_rounds 2046/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 214
+1771431755353	oai-nr-du	UE 1275: ulsch_rounds 5780/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 1158
+1771431755353	oai-nr-du	UE 1275: MAC:    TX         716524 RX       13109642 bytes
+1771431755353	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431755353	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431755353	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE 1ff6: dlsch_rounds 2131/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 201
+1771431755353	oai-nr-du	UE 1ff6: ulsch_rounds 5835/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 48.0 dB CCE fail 663
+1771431755353	oai-nr-du	UE 1ff6: MAC:    TX         766562 RX       13796137 bytes
+1771431755353	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431755353	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431755353	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE 6195: dlsch_rounds 2112/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 317
+1771431755353	oai-nr-du	UE 6195: ulsch_rounds 5755/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 45.0 dB CCE fail 1382
+1771431755353	oai-nr-du	UE 6195: MAC:    TX         760514 RX       13666816 bytes
+1771431755353	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431755353	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431755353	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431755353	oai-nr-du	UE afed: dlsch_rounds 2023/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 248
+1771431755353	oai-nr-du	UE afed: ulsch_rounds 5656/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431755353	oai-nr-du	UE afed: MAC:    TX         717793 RX       12970794 bytes
+1771431755353	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431755353	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431755353	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431755353	oai-nr-du	
+1771431755373	oai-nr-du	255562.174952 [NR_PHY] I CUDA LDPC decoder:    352.09 us (    65.27 us / seg)
+1771431755373	oai-nr-du	
+1771431759971	oai-nr-du	255566.773299 [NR_MAC] I Frame.Slot 896.0
+1771431759971	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759971	oai-nr-du	UE bb4a: dlsch_rounds 17164/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1634
+1771431759971	oai-nr-du	UE bb4a: ulsch_rounds 26355/116/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02066 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 257
+1771431759971	oai-nr-du	UE bb4a: MAC:    TX        7152357 RX      159523505 bytes
+1771431759971	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431759971	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431759971	oai-nr-du	UE bb4a: LCID 4: TX        2270065 RX      158850820 bytes
+1771431759971	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759971	oai-nr-du	UE 0664: dlsch_rounds 4613/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 207
+1771431759971	oai-nr-du	UE 0664: ulsch_rounds 9468/50/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02000 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 29
+1771431759971	oai-nr-du	UE 0664: MAC:    TX        1736039 RX       34798616 bytes
+1771431759971	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431759971	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431759971	oai-nr-du	UE 0664: LCID 4: TX         530749 RX       34568829 bytes
+1771431759971	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759971	oai-nr-du	UE 3162: dlsch_rounds 4692/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 328
+1771431759971	oai-nr-du	UE 3162: ulsch_rounds 9420/50/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01546 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 91
+1771431759971	oai-nr-du	UE 3162: MAC:    TX        1779873 RX       35824995 bytes
+1771431759971	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431759971	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431759971	oai-nr-du	UE 3162: LCID 4: TX         559434 RX       35589936 bytes
+1771431759971	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759971	oai-nr-du	UE 82df: dlsch_rounds 2211/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431759971	oai-nr-du	UE 82df: ulsch_rounds 6224/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 11
+1771431759971	oai-nr-du	UE 82df: MAC:    TX         783648 RX       14243593 bytes
+1771431759972	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431759972	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431759972	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431759972	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759972	oai-nr-du	UE f2a7: dlsch_rounds 2098/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 321
+1771431759972	oai-nr-du	UE f2a7: ulsch_rounds 6035/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431759972	oai-nr-du	UE f2a7: MAC:    TX         743466 RX       13391677 bytes
+1771431759972	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431759972	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431759972	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431759972	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759972	oai-nr-du	UE 3520: dlsch_rounds 2152/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431759972	oai-nr-du	UE 3520: ulsch_rounds 5992/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431759972	oai-nr-du	UE 3520: MAC:    TX         767502 RX       13801816 bytes
+1771431759972	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431759972	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431759972	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431759972	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759972	oai-nr-du	UE edb5: dlsch_rounds 2036/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 125
+1771431759972	oai-nr-du	UE edb5: ulsch_rounds 5863/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 45.0 dB CCE fail 398
+1771431759972	oai-nr-du	UE edb5: MAC:    TX         711874 RX       12978109 bytes
+1771431759972	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431759972	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431759972	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431759972	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759972	oai-nr-du	UE 1a77: dlsch_rounds 2108/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 433
+1771431759972	oai-nr-du	UE 1a77: ulsch_rounds 5906/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 725
+1771431759972	oai-nr-du	UE 1a77: MAC:    TX         741761 RX       13799387 bytes
+1771431759972	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431759972	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431759972	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431759972	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759972	oai-nr-du	UE 1275: dlsch_rounds 2047/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 214
+1771431759972	oai-nr-du	UE 1275: ulsch_rounds 5793/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1158
+1771431759972	oai-nr-du	UE 1275: MAC:    TX         716545 RX       13109902 bytes
+1771431759972	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431759972	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431759972	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431759972	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759972	oai-nr-du	UE 1ff6: dlsch_rounds 2132/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 202
+1771431759972	oai-nr-du	UE 1ff6: ulsch_rounds 5847/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 663
+1771431759972	oai-nr-du	UE 1ff6: MAC:    TX         766583 RX       13796377 bytes
+1771431759972	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431759972	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431759972	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431759972	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759972	oai-nr-du	UE 6195: dlsch_rounds 2113/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 318
+1771431759972	oai-nr-du	UE 6195: ulsch_rounds 5768/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 43.0 dB CCE fail 1382
+1771431759972	oai-nr-du	UE 6195: MAC:    TX         760535 RX       13667076 bytes
+1771431759972	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431759972	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431759972	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431759972	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431759972	oai-nr-du	UE afed: dlsch_rounds 2024/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 249
+1771431759972	oai-nr-du	UE afed: ulsch_rounds 5668/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431759972	oai-nr-du	UE afed: MAC:    TX         717814 RX       12971034 bytes
+1771431759972	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431759972	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431759972	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431759972	oai-nr-du	
+1771431759991	oai-nr-du	255566.792825 [NR_PHY] I CUDA LDPC decoder:    355.33 us (    67.95 us / seg)
+1771431759991	oai-nr-du	
+1771431764598	oai-nr-du	255571.399926 [NR_MAC] I Frame.Slot 0.0
+1771431764598	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764598	oai-nr-du	UE bb4a: dlsch_rounds 17501/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1657
+1771431764598	oai-nr-du	UE bb4a: ulsch_rounds 26774/125/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01919 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 271
+1771431764598	oai-nr-du	UE bb4a: MAC:    TX        7307032 RX      162921407 bytes
+1771431764598	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431764598	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431764598	oai-nr-du	UE bb4a: LCID 4: TX        2313015 RX      162235331 bytes
+1771431764598	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764598	oai-nr-du	UE 0664: dlsch_rounds 4983/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 239
+1771431764598	oai-nr-du	UE 0664: ulsch_rounds 9897/59/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02152 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 33
+1771431764598	oai-nr-du	UE 0664: MAC:    TX        1914960 RX       38212803 bytes
+1771431764598	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431764598	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431764598	oai-nr-du	UE 0664: LCID 4: TX         598653 RX       37970452 bytes
+1771431764598	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764598	oai-nr-du	UE 3162: dlsch_rounds 5053/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 361
+1771431764598	oai-nr-du	UE 3162: ulsch_rounds 9842/59/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01951 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 107
+1771431764598	oai-nr-du	UE 3162: MAC:    TX        1944422 RX       39242480 bytes
+1771431764598	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431764598	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431764598	oai-nr-du	UE 3162: LCID 4: TX         593503 RX       38990449 bytes
+1771431764598	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764598	oai-nr-du	UE 82df: dlsch_rounds 2212/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431764598	oai-nr-du	UE 82df: ulsch_rounds 6237/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 11
+1771431764598	oai-nr-du	UE 82df: MAC:    TX         783669 RX       14243853 bytes
+1771431764598	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431764598	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431764598	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431764598	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764598	oai-nr-du	UE f2a7: dlsch_rounds 2100/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 322
+1771431764598	oai-nr-du	UE f2a7: ulsch_rounds 6048/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431764598	oai-nr-du	UE f2a7: MAC:    TX         743508 RX       13391937 bytes
+1771431764598	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431764598	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431764598	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431764598	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764598	oai-nr-du	UE 3520: dlsch_rounds 2153/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431764598	oai-nr-du	UE 3520: ulsch_rounds 6005/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431764598	oai-nr-du	UE 3520: MAC:    TX         767523 RX       13802076 bytes
+1771431764598	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431764598	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431764598	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431764598	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764598	oai-nr-du	UE edb5: dlsch_rounds 2037/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 126
+1771431764598	oai-nr-du	UE edb5: ulsch_rounds 5875/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 45.0 dB CCE fail 398
+1771431764598	oai-nr-du	UE edb5: MAC:    TX         711895 RX       12978349 bytes
+1771431764598	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431764598	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431764598	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431764598	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764598	oai-nr-du	UE 1a77: dlsch_rounds 2109/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 433
+1771431764598	oai-nr-du	UE 1a77: ulsch_rounds 5919/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 725
+1771431764598	oai-nr-du	UE 1a77: MAC:    TX         741782 RX       13799647 bytes
+1771431764598	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431764598	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431764598	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431764598	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764598	oai-nr-du	UE 1275: dlsch_rounds 2049/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 214
+1771431764598	oai-nr-du	UE 1275: ulsch_rounds 5806/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 48.0 dB CCE fail 1158
+1771431764598	oai-nr-du	UE 1275: MAC:    TX         716587 RX       13110162 bytes
+1771431764599	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431764599	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431764599	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431764599	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764599	oai-nr-du	UE 1ff6: dlsch_rounds 2134/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 204
+1771431764599	oai-nr-du	UE 1ff6: ulsch_rounds 5860/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 663
+1771431764599	oai-nr-du	UE 1ff6: MAC:    TX         766625 RX       13796637 bytes
+1771431764599	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431764599	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431764599	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431764599	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764599	oai-nr-du	UE 6195: dlsch_rounds 2114/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 319
+1771431764599	oai-nr-du	UE 6195: ulsch_rounds 5781/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 45.0 dB CCE fail 1382
+1771431764599	oai-nr-du	UE 6195: MAC:    TX         760556 RX       13667336 bytes
+1771431764599	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431764599	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431764599	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431764599	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431764599	oai-nr-du	UE afed: dlsch_rounds 2026/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 251
+1771431764599	oai-nr-du	UE afed: ulsch_rounds 5681/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431764599	oai-nr-du	UE afed: MAC:    TX         717856 RX       12971294 bytes
+1771431764599	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431764599	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431764599	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431764599	oai-nr-du	
+1771431764618	oai-nr-du	255571.419795 [NR_PHY] I CUDA LDPC decoder:    355.15 us (    67.56 us / seg)
+1771431764618	oai-nr-du	
+1771431769218	oai-nr-du	255576.020208 [NR_MAC] I Frame.Slot 128.0
+1771431769218	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE bb4a: dlsch_rounds 17835/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1683
+1771431769218	oai-nr-du	UE bb4a: ulsch_rounds 27190/134/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02213 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 283
+1771431769218	oai-nr-du	UE bb4a: MAC:    TX        7459819 RX      166338283 bytes
+1771431769218	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431769218	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE bb4a: LCID 4: TX        2354104 RX      165639695 bytes
+1771431769218	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE 0664: dlsch_rounds 5336/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 258
+1771431769218	oai-nr-du	UE 0664: ulsch_rounds 10324/66/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01867 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 35
+1771431769218	oai-nr-du	UE 0664: MAC:    TX        2077202 RX       41632770 bytes
+1771431769218	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431769218	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE 0664: LCID 4: TX         634848 RX       41376156 bytes
+1771431769218	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE 3162: dlsch_rounds 5395/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 392
+1771431769218	oai-nr-du	UE 3162: ulsch_rounds 10268/68/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02138 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 120
+1771431769218	oai-nr-du	UE 3162: MAC:    TX        2106446 RX       42646595 bytes
+1771431769218	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431769218	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE 3162: LCID 4: TX         644238 RX       42384268 bytes
+1771431769218	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE 82df: dlsch_rounds 2213/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431769218	oai-nr-du	UE 82df: ulsch_rounds 6249/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 11
+1771431769218	oai-nr-du	UE 82df: MAC:    TX         783690 RX       14244093 bytes
+1771431769218	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431769218	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431769218	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE f2a7: dlsch_rounds 2101/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 322
+1771431769218	oai-nr-du	UE f2a7: ulsch_rounds 6060/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431769218	oai-nr-du	UE f2a7: MAC:    TX         743529 RX       13392177 bytes
+1771431769218	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431769218	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431769218	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE 3520: dlsch_rounds 2155/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431769218	oai-nr-du	UE 3520: ulsch_rounds 6017/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431769218	oai-nr-du	UE 3520: MAC:    TX         767565 RX       13802316 bytes
+1771431769218	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431769218	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431769218	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE edb5: dlsch_rounds 2039/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 128
+1771431769218	oai-nr-du	UE edb5: ulsch_rounds 5888/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 398
+1771431769218	oai-nr-du	UE edb5: MAC:    TX         711937 RX       12978609 bytes
+1771431769218	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431769218	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431769218	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE 1a77: dlsch_rounds 2110/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 434
+1771431769218	oai-nr-du	UE 1a77: ulsch_rounds 5932/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 725
+1771431769218	oai-nr-du	UE 1a77: MAC:    TX         741803 RX       13799907 bytes
+1771431769218	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431769218	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431769218	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE 1275: dlsch_rounds 2050/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 214
+1771431769218	oai-nr-du	UE 1275: ulsch_rounds 5818/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1158
+1771431769218	oai-nr-du	UE 1275: MAC:    TX         716608 RX       13110402 bytes
+1771431769218	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431769218	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431769218	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE 1ff6: dlsch_rounds 2135/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 205
+1771431769218	oai-nr-du	UE 1ff6: ulsch_rounds 5873/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 663
+1771431769218	oai-nr-du	UE 1ff6: MAC:    TX         766646 RX       13796897 bytes
+1771431769218	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431769218	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431769218	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE 6195: dlsch_rounds 2116/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 321
+1771431769218	oai-nr-du	UE 6195: ulsch_rounds 5793/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1382
+1771431769218	oai-nr-du	UE 6195: MAC:    TX         760598 RX       13667576 bytes
+1771431769218	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431769218	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431769218	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431769218	oai-nr-du	UE afed: dlsch_rounds 2027/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 252
+1771431769218	oai-nr-du	UE afed: ulsch_rounds 5694/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431769218	oai-nr-du	UE afed: MAC:    TX         717877 RX       12971554 bytes
+1771431769218	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431769218	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431769218	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431769218	oai-nr-du	
+1771431769238	oai-nr-du	255576.039843 [NR_PHY] I CUDA LDPC decoder:    355.78 us (    67.68 us / seg)
+1771431769238	oai-nr-du	
+1771431773821	oai-nr-du	255580.623285 [NR_MAC] I Frame.Slot 256.0
+1771431773821	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE bb4a: dlsch_rounds 18171/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1706
+1771431773822	oai-nr-du	UE bb4a: ulsch_rounds 27615/143/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02358 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 292
+1771431773822	oai-nr-du	UE bb4a: MAC:    TX        7613598 RX      169743691 bytes
+1771431773822	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431773822	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE bb4a: LCID 4: TX        2394381 RX      169032580 bytes
+1771431773822	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE 0664: dlsch_rounds 5676/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 272
+1771431773822	oai-nr-du	UE 0664: ulsch_rounds 10747/74/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01880 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 40
+1771431773822	oai-nr-du	UE 0664: MAC:    TX        2232083 RX       45046037 bytes
+1771431773822	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431773822	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE 0664: LCID 4: TX         671703 RX       44776900 bytes
+1771431773822	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE 3162: dlsch_rounds 5753/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 423
+1771431773822	oai-nr-du	UE 3162: ulsch_rounds 10688/75/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01759 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 135
+1771431773822	oai-nr-du	UE 3162: MAC:    TX        2291012 RX       46075632 bytes
+1771431773822	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431773822	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE 3162: LCID 4: TX         725899 RX       45800745 bytes
+1771431773822	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE 82df: dlsch_rounds 2215/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431773822	oai-nr-du	UE 82df: ulsch_rounds 6262/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 11
+1771431773822	oai-nr-du	UE 82df: MAC:    TX         783732 RX       14244353 bytes
+1771431773822	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431773822	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431773822	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE f2a7: dlsch_rounds 2102/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 323
+1771431773822	oai-nr-du	UE f2a7: ulsch_rounds 6073/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431773822	oai-nr-du	UE f2a7: MAC:    TX         743550 RX       13392437 bytes
+1771431773822	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431773822	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431773822	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE 3520: dlsch_rounds 2156/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431773822	oai-nr-du	UE 3520: ulsch_rounds 6030/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431773822	oai-nr-du	UE 3520: MAC:    TX         767586 RX       13802576 bytes
+1771431773822	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431773822	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431773822	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE edb5: dlsch_rounds 2040/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 129
+1771431773822	oai-nr-du	UE edb5: ulsch_rounds 5901/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 398
+1771431773822	oai-nr-du	UE edb5: MAC:    TX         711958 RX       12978869 bytes
+1771431773822	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431773822	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431773822	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE 1a77: dlsch_rounds 2112/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 435
+1771431773822	oai-nr-du	UE 1a77: ulsch_rounds 5945/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 725
+1771431773822	oai-nr-du	UE 1a77: MAC:    TX         741845 RX       13800167 bytes
+1771431773822	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431773822	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431773822	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE 1275: dlsch_rounds 2051/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 214
+1771431773822	oai-nr-du	UE 1275: ulsch_rounds 5831/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1158
+1771431773822	oai-nr-du	UE 1275: MAC:    TX         716629 RX       13110662 bytes
+1771431773822	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431773822	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431773822	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE 1ff6: dlsch_rounds 2136/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 206
+1771431773822	oai-nr-du	UE 1ff6: ulsch_rounds 5886/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 663
+1771431773822	oai-nr-du	UE 1ff6: MAC:    TX         766667 RX       13797157 bytes
+1771431773822	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431773822	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431773822	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE 6195: dlsch_rounds 2117/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 322
+1771431773822	oai-nr-du	UE 6195: ulsch_rounds 5806/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 43.0 dB CCE fail 1382
+1771431773822	oai-nr-du	UE 6195: MAC:    TX         760619 RX       13667836 bytes
+1771431773822	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431773822	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431773822	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431773822	oai-nr-du	UE afed: dlsch_rounds 2028/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 253
+1771431773822	oai-nr-du	UE afed: ulsch_rounds 5707/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431773822	oai-nr-du	UE afed: MAC:    TX         717898 RX       12971814 bytes
+1771431773822	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431773822	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431773822	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431773822	oai-nr-du	
+1771431773841	oai-nr-du	255580.643397 [NR_PHY] I CUDA LDPC decoder:    357.80 us (    69.07 us / seg)
+1771431773841	oai-nr-du	
+1771431778430	oai-nr-du	255585.231479 [NR_MAC] I Frame.Slot 384.0
+1771431778430	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE bb4a: dlsch_rounds 18514/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1725
+1771431778430	oai-nr-du	UE bb4a: ulsch_rounds 28041/149/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01772 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 307
+1771431778430	oai-nr-du	UE bb4a: MAC:    TX        7771271 RX      173178140 bytes
+1771431778430	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431778430	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE bb4a: LCID 4: TX        2435069 RX      172456673 bytes
+1771431778430	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE 0664: dlsch_rounds 6010/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 285
+1771431778430	oai-nr-du	UE 0664: ulsch_rounds 11176/83/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01960 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 41.0 dB CCE fail 41
+1771431778430	oai-nr-du	UE 0664: MAC:    TX        2385196 RX       48448727 bytes
+1771431778430	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431778430	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE 0664: LCID 4: TX         708906 RX       48169262 bytes
+1771431778430	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE 3162: dlsch_rounds 6072/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 440
+1771431778430	oai-nr-du	UE 3162: ulsch_rounds 11100/90/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.03035 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 150
+1771431778430	oai-nr-du	UE 3162: MAC:    TX        2435803 RX       49421587 bytes
+1771431778430	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431778430	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE 3162: LCID 4: TX         762403 RX       49136585 bytes
+1771431778430	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE 82df: dlsch_rounds 2216/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431778430	oai-nr-du	UE 82df: ulsch_rounds 6275/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 45.0 dB CCE fail 11
+1771431778430	oai-nr-du	UE 82df: MAC:    TX         783753 RX       14244613 bytes
+1771431778430	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431778430	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431778430	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE f2a7: dlsch_rounds 2103/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 323
+1771431778430	oai-nr-du	UE f2a7: ulsch_rounds 6086/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431778430	oai-nr-du	UE f2a7: MAC:    TX         743571 RX       13392697 bytes
+1771431778430	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431778430	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431778430	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE 3520: dlsch_rounds 2157/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431778430	oai-nr-du	UE 3520: ulsch_rounds 6043/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431778430	oai-nr-du	UE 3520: MAC:    TX         767607 RX       13802836 bytes
+1771431778430	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431778430	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431778430	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE edb5: dlsch_rounds 2041/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 130
+1771431778430	oai-nr-du	UE edb5: ulsch_rounds 5914/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 398
+1771431778430	oai-nr-du	UE edb5: MAC:    TX         711979 RX       12979129 bytes
+1771431778430	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431778430	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431778430	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE 1a77: dlsch_rounds 2113/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 435
+1771431778430	oai-nr-du	UE 1a77: ulsch_rounds 5958/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 725
+1771431778430	oai-nr-du	UE 1a77: MAC:    TX         741866 RX       13800427 bytes
+1771431778430	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431778430	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431778430	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE 1275: dlsch_rounds 2052/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 214
+1771431778430	oai-nr-du	UE 1275: ulsch_rounds 5844/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 48.0 dB CCE fail 1158
+1771431778430	oai-nr-du	UE 1275: MAC:    TX         716650 RX       13110922 bytes
+1771431778430	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431778430	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431778430	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE 1ff6: dlsch_rounds 2138/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 208
+1771431778430	oai-nr-du	UE 1ff6: ulsch_rounds 5899/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 663
+1771431778430	oai-nr-du	UE 1ff6: MAC:    TX         766709 RX       13797417 bytes
+1771431778430	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431778430	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431778430	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE 6195: dlsch_rounds 2118/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 323
+1771431778430	oai-nr-du	UE 6195: ulsch_rounds 5819/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 43.0 dB CCE fail 1382
+1771431778430	oai-nr-du	UE 6195: MAC:    TX         760640 RX       13668096 bytes
+1771431778430	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431778430	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431778430	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431778430	oai-nr-du	UE afed: dlsch_rounds 2029/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 254
+1771431778430	oai-nr-du	UE afed: ulsch_rounds 5720/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431778430	oai-nr-du	UE afed: MAC:    TX         717919 RX       12972074 bytes
+1771431778430	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431778430	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431778430	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431778430	oai-nr-du	
+1771431778450	oai-nr-du	255585.252278 [NR_PHY] I CUDA LDPC decoder:    356.22 us (    69.36 us / seg)
+1771431778450	oai-nr-du	
+1771431783060	oai-nr-du	255589.861751 [NR_MAC] I Frame.Slot 512.0
+1771431783060	oai-nr-du	UE RNTI bb4a CU-UE-ID 1 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE bb4a: dlsch_rounds 18886/1/1/1, dlsch_errors 1, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 1775
+1771431783060	oai-nr-du	UE bb4a: ulsch_rounds 28466/152/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.01123 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 322
+1771431783060	oai-nr-du	UE bb4a: MAC:    TX        7939646 RX      176643523 bytes
+1771431783060	oai-nr-du	UE bb4a: LCID 1: TX            522 RX            313 bytes
+1771431783060	oai-nr-du	UE bb4a: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE bb4a: LCID 4: TX        2469593 RX      175911613 bytes
+1771431783060	oai-nr-du	UE RNTI 0664 CU-UE-ID 2 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE 0664: dlsch_rounds 6344/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 294
+1771431783060	oai-nr-du	UE 0664: ulsch_rounds 11600/91/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02099 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 42.0 dB CCE fail 47
+1771431783060	oai-nr-du	UE 0664: MAC:    TX        2538798 RX       51867757 bytes
+1771431783060	oai-nr-du	UE 0664: LCID 1: TX            522 RX            321 bytes
+1771431783060	oai-nr-du	UE 0664: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE 0664: LCID 4: TX         749415 RX       51575741 bytes
+1771431783060	oai-nr-du	UE RNTI 3162 CU-UE-ID 3 in-sync PH 61 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE 3162: dlsch_rounds 6401/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 28 CCE fail 455
+1771431783060	oai-nr-du	UE 3162: ulsch_rounds 11518/101/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.02376 MCS (0) 28 (Qm 6 deltaMCS 0 dB) NPRB 106  SNR 50.5 dB CCE fail 161
+1771431783060	oai-nr-du	UE 3162: MAC:    TX        2585813 RX       52814543 bytes
+1771431783060	oai-nr-du	UE 3162: LCID 1: TX            522 RX            317 bytes
+1771431783060	oai-nr-du	UE 3162: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE 3162: LCID 4: TX         799785 RX       52519301 bytes
+1771431783060	oai-nr-du	UE RNTI 82df CU-UE-ID 4 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE 82df: dlsch_rounds 2217/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 282
+1771431783060	oai-nr-du	UE 82df: ulsch_rounds 6288/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 11
+1771431783060	oai-nr-du	UE 82df: MAC:    TX         783774 RX       14244873 bytes
+1771431783060	oai-nr-du	UE 82df: LCID 1: TX            522 RX            321 bytes
+1771431783060	oai-nr-du	UE 82df: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE 82df: LCID 4: TX         226760 RX       14062195 bytes
+1771431783060	oai-nr-du	UE RNTI f2a7 CU-UE-ID 5 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE f2a7: dlsch_rounds 2105/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 324
+1771431783060	oai-nr-du	UE f2a7: ulsch_rounds 6099/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 49
+1771431783060	oai-nr-du	UE f2a7: MAC:    TX         743613 RX       13392957 bytes
+1771431783060	oai-nr-du	UE f2a7: LCID 1: TX            522 RX            321 bytes
+1771431783060	oai-nr-du	UE f2a7: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE f2a7: LCID 4: TX         230835 RX       13244798 bytes
+1771431783060	oai-nr-du	UE RNTI 3520 CU-UE-ID 6 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE 3520: dlsch_rounds 2159/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 333
+1771431783060	oai-nr-du	UE 3520: ulsch_rounds 6056/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 720
+1771431783060	oai-nr-du	UE 3520: MAC:    TX         767649 RX       13803096 bytes
+1771431783060	oai-nr-du	UE 3520: LCID 1: TX            522 RX            321 bytes
+1771431783060	oai-nr-du	UE 3520: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE 3520: LCID 4: TX         242056 RX       13654182 bytes
+1771431783060	oai-nr-du	UE RNTI edb5 CU-UE-ID 7 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE edb5: dlsch_rounds 2042/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 131
+1771431783060	oai-nr-du	UE edb5: ulsch_rounds 5927/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 398
+1771431783060	oai-nr-du	UE edb5: MAC:    TX         712000 RX       12979389 bytes
+1771431783060	oai-nr-du	UE edb5: LCID 1: TX            522 RX            321 bytes
+1771431783060	oai-nr-du	UE edb5: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE edb5: LCID 4: TX         208149 RX       12833694 bytes
+1771431783060	oai-nr-du	UE RNTI 1a77 CU-UE-ID 8 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE 1a77: dlsch_rounds 2114/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 435
+1771431783060	oai-nr-du	UE 1a77: ulsch_rounds 5970/2/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 46.0 dB CCE fail 725
+1771431783060	oai-nr-du	UE 1a77: MAC:    TX         741887 RX       13800667 bytes
+1771431783060	oai-nr-du	UE 1a77: LCID 1: TX            522 RX            321 bytes
+1771431783060	oai-nr-du	UE 1a77: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE 1a77: LCID 4: TX         220293 RX       13652645 bytes
+1771431783060	oai-nr-du	UE RNTI 1275 CU-UE-ID 9 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE 1275: dlsch_rounds 2054/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 215
+1771431783060	oai-nr-du	UE 1275: ulsch_rounds 5857/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 1158
+1771431783060	oai-nr-du	UE 1275: MAC:    TX         716692 RX       13111182 bytes
+1771431783060	oai-nr-du	UE 1275: LCID 1: TX            522 RX            321 bytes
+1771431783060	oai-nr-du	UE 1275: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE 1275: LCID 4: TX         210546 RX       12970250 bytes
+1771431783060	oai-nr-du	UE RNTI 1ff6 CU-UE-ID 10 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE 1ff6: dlsch_rounds 2139/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 209
+1771431783060	oai-nr-du	UE 1ff6: ulsch_rounds 5911/1/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 48.0 dB CCE fail 663
+1771431783060	oai-nr-du	UE 1ff6: MAC:    TX         766730 RX       13797657 bytes
+1771431783060	oai-nr-du	UE 1ff6: LCID 1: TX            522 RX            321 bytes
+1771431783060	oai-nr-du	UE 1ff6: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE 1ff6: LCID 4: TX         231833 RX       13652809 bytes
+1771431783060	oai-nr-du	UE RNTI 6195 CU-UE-ID 11 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE 6195: dlsch_rounds 2120/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 324
+1771431783060	oai-nr-du	UE 6195: ulsch_rounds 5832/4/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 43.0 dB CCE fail 1382
+1771431783060	oai-nr-du	UE 6195: MAC:    TX         760682 RX       13668356 bytes
+1771431783060	oai-nr-du	UE 6195: LCID 1: TX            522 RX            321 bytes
+1771431783060	oai-nr-du	UE 6195: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE 6195: LCID 4: TX         240115 RX       13517672 bytes
+1771431783060	oai-nr-du	UE RNTI afed CU-UE-ID 12 in-sync PH 48 dB PCMAX 20 dBm, average RSRP -44 (32 meas)
+1771431783060	oai-nr-du	UE afed: dlsch_rounds 2031/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS (0) 0 CCE fail 256
+1771431783060	oai-nr-du	UE afed: ulsch_rounds 5732/0/0/0, ulsch_errors 0, ulsch_DTX 0, BLER 0.00000 MCS (0) 0 (Qm 2 deltaMCS 0 dB) NPRB 5  SNR 51.0 dB CCE fail 394
+1771431783060	oai-nr-du	UE afed: MAC:    TX         717961 RX       12972314 bytes
+1771431783060	oai-nr-du	UE afed: LCID 1: TX            522 RX            321 bytes
+1771431783060	oai-nr-du	UE afed: LCID 2: TX              0 RX              0 bytes
+1771431783060	oai-nr-du	UE afed: LCID 4: TX         219375 RX       12833739 bytes
+1771431783060	oai-nr-du	
+1771431783079	oai-nr-du	255589.881384 [NR_PHY] I CUDA LDPC decoder:    357.87 us (    68.51 us / seg)
+1771431783079	oai-nr-du	

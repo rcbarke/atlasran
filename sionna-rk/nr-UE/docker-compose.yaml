@@ -1,0 +1,78 @@
+services:
+  oai-nr-ue:
+    image: ${UE_IMAGE:-oai-nr-ue}:${UE_TAG:-latest}
+    container_name: oai-nr-ue
+    runtime: nvidia
+    cap_add:
+      - NET_ADMIN  # for interface/route changes
+      - NET_RAW    # for ping
+      - SYS_NICE   # for thread affinity
+      - IPC_LOCK   # to avoid page swapping
+    environment:
+      USE_B2XX: ${USE_B2XX:-}
+      USE_ADDITIONAL_OPTIONS: ${UE_RF_OPTIONS:-} --log_config.global_log_options level,nocolor,time ${UE_EXTRA_OPTIONS:-}
+      UE_PUBLIC_GW: ${UE_PUBLIC_GW:-192.168.71.129}
+      WAN_TEST_IP: ${WAN_TEST_IP:-8.8.8.8}
+    networks:
+      public_net:
+        ipv4_address: 192.168.71.150
+    devices:
+      - /dev/net/tun:/dev/net/tun
+      - /dev/bus/usb/:/dev/bus/usb/
+    volumes:
+      - ${UE_CONFIG:-../common/nrue.uicc.conf}:/opt/oai-nr-ue/etc/nr-ue.conf
+    entrypoint:
+      - /tini
+      - -v
+      - --
+      - /bin/bash
+      - -lc
+      - |
+        set -e
+
+        # Start a background route fixer that waits for the user-plane tunnel
+        (
+          echo "[route-fix] Waiting for oaitun_ue1..."
+          for i in $(seq 1 180); do
+            ip link show oaitun_ue1 >/dev/null 2>&1 && break
+            sleep 1
+          done
+
+          if ip link show oaitun_ue1 >/dev/null 2>&1; then
+            echo "[route-fix] oaitun_ue1 is up. Updating routes..."
+
+            # Prefer UE tunnel for default traffic; keep eth0 as lower-priority fallback
+            ip route del default || true
+            ip route add default dev oaitun_ue1 metric 10 || true
+            ip route add default via "${UE_PUBLIC_GW}" dev eth0 metric 100 || true
+
+            echo "[route-fix] Routes after update:"
+            ip route
+
+            echo "[route-fix] Smoke test: ping ${WAN_TEST_IP}"
+            ping -c 2 "${WAN_TEST_IP}" || true
+          else
+            echo "[route-fix] Timeout waiting for oaitun_ue1; leaving routes unchanged."
+          fi
+        ) &
+
+        # Run the UE as PID1 (tini handles signals); config is mounted at /opt/oai-nr-ue/etc/nr-ue.conf
+        exec /opt/oai-nr-ue/bin/nr-uesoftmodem -O /opt/oai-nr-ue/etc/nr-ue.conf ${USE_ADDITIONAL_OPTIONS}
+
+    healthcheck:
+      test: /bin/bash -c "pgrep nr-uesoftmodem"
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  public_net:
+    driver: bridge
+    name: oai-public-net
+    ipam:
+      config:
+        - subnet: 192.168.71.128/26
+          gateway: 192.168.71.129
+    driver_opts:
+      com.docker.network.bridge.name: "oai-public"
+

@@ -1,0 +1,602 @@
+# start_epoch_ms=1772063387527 srk_root=/home/ryan/aerial-dgx-spark/experiments/srk/sionna-rk python=/home/ryan/aerial-dgx-spark/experiments/srk/sionna-rk/venv/bin/python
+ts_epoch_ms	stream	line
+1772063387569	zmq_stats_client	2026-02-25 18:49:47,569 - INFO - Connected to UE stats publisher at tcp://127.0.0.1:5555
+1772063387569	zmq_stats_client	2026-02-25 18:49:47,569 - INFO - Subscribed to 'ue_stats' topic
+1772063387569	zmq_stats_client	2026-02-25 18:49:47,569 - INFO - Starting UE stats subscriber...
+1772063387569	zmq_stats_client	2026-02-25 18:49:47,569 - INFO - Waiting for UE stats data (max_messages: unlimited)
+1772063387569	zmq_stats_client	2026-02-25 18:49:47,569 - INFO - Press Ctrl+C to stop
+1772063387870	zmq_stats_client	2026-02-25 18:49:47,870 - INFO - Received UE stats #1: 1 UEs at timestamp 1772063387426
+1772063387870	zmq_stats_client	
+1772063387870	zmq_stats_client	--- UE Stats #1 (TS: 1772063387426) ---
+1772063387870	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑0/↓0, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓0, PRBs(max) ↑5/↓5, PRBs(delta) ↑5/↓5, PRBs(cum) ↑11448/↓1321
+1772063387870	zmq_stats_client	---
+1772063388371	zmq_stats_client	2026-02-25 18:49:48,371 - INFO - Received UE stats #2: 1 UEs at timestamp 1772063387926
+1772063388371	zmq_stats_client	
+1772063388371	zmq_stats_client	--- UE Stats #2 (TS: 1772063387926) ---
+1772063388371	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑9/↓9, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓49, PRBs(delta) ↑27500/↓700, PRBs(cum) ↑93866/↓3683
+1772063388371	zmq_stats_client	---
+1772063388872	zmq_stats_client	2026-02-25 18:49:48,872 - INFO - Received UE stats #3: 1 UEs at timestamp 1772063388426
+1772063388872	zmq_stats_client	
+1772063388872	zmq_stats_client	--- UE Stats #3 (TS: 1772063388426) ---
+1772063388872	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑21/↓21, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓8, PRBs(delta) ↑52652/↓1461, PRBs(cum) ↑217390/↓7789
+1772063388872	zmq_stats_client	---
+1772063389373	zmq_stats_client	2026-02-25 18:49:49,373 - INFO - Received UE stats #4: 1 UEs at timestamp 1772063388926
+1772063389373	zmq_stats_client	
+1772063389373	zmq_stats_client	--- UE Stats #4 (TS: 1772063388926) ---
+1772063389373	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓8, PRBs(delta) ↑52488/↓1725, PRBs(cum) ↑309930/↓11134
+1772063389373	zmq_stats_client	---
+1772063389874	zmq_stats_client	2026-02-25 18:49:49,874 - INFO - Received UE stats #5: 1 UEs at timestamp 1772063389426
+1772063389874	zmq_stats_client	
+1772063389874	zmq_stats_client	--- UE Stats #5 (TS: 1772063389426) ---
+1772063389874	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓9, PRBs(delta) ↑52478/↓1554, PRBs(cum) ↑398254/↓14213
+1772063389874	zmq_stats_client	---
+1772063390375	zmq_stats_client	2026-02-25 18:49:50,375 - INFO - Received UE stats #6: 1 UEs at timestamp 1772063389926
+1772063390375	zmq_stats_client	
+1772063390375	zmq_stats_client	--- UE Stats #6 (TS: 1772063389926) ---
+1772063390375	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓7, PRBs(delta) ↑52266/↓1699, PRBs(cum) ↑485942/↓17614
+1772063390375	zmq_stats_client	---
+1772063390876	zmq_stats_client	2026-02-25 18:49:50,876 - INFO - Received UE stats #7: 1 UEs at timestamp 1772063390426
+1772063390876	zmq_stats_client	
+1772063390876	zmq_stats_client	--- UE Stats #7 (TS: 1772063390426) ---
+1772063390876	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓8, PRBs(delta) ↑52502/↓1518, PRBs(cum) ↑573736/↓20829
+1772063390876	zmq_stats_client	---
+1772063391377	zmq_stats_client	2026-02-25 18:49:51,377 - INFO - Received UE stats #8: 1 UEs at timestamp 1772063390927
+1772063391377	zmq_stats_client	
+1772063391377	zmq_stats_client	--- UE Stats #8 (TS: 1772063390927) ---
+1772063391377	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓7, PRBs(delta) ↑52418/↓1579, PRBs(cum) ↑661542/↓23943
+1772063391377	zmq_stats_client	---
+1772063391878	zmq_stats_client	2026-02-25 18:49:51,878 - INFO - Received UE stats #9: 1 UEs at timestamp 1772063391426
+1772063391878	zmq_stats_client	
+1772063391878	zmq_stats_client	--- UE Stats #9 (TS: 1772063391426) ---
+1772063391878	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓8, PRBs(delta) ↑52490/↓1508, PRBs(cum) ↑749442/↓27161
+1772063391878	zmq_stats_client	---
+1772063392378	zmq_stats_client	2026-02-25 18:49:52,378 - INFO - Received UE stats #10: 1 UEs at timestamp 1772063391926
+1772063392379	zmq_stats_client	
+1772063392379	zmq_stats_client	--- UE Stats #10 (TS: 1772063391926) ---
+1772063392379	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52324/↓1620, PRBs(cum) ↑837448/↓30431
+1772063392379	zmq_stats_client	---
+1772063392879	zmq_stats_client	2026-02-25 18:49:52,879 - INFO - Received UE stats #11: 1 UEs at timestamp 1772063392426
+1772063392879	zmq_stats_client	
+1772063392879	zmq_stats_client	--- UE Stats #11 (TS: 1772063392426) ---
+1772063392879	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52714/↓1515, PRBs(cum) ↑925030/↓33601
+1772063392879	zmq_stats_client	---
+1772063393480	zmq_stats_client	2026-02-25 18:49:53,480 - INFO - Received UE stats #12: 1 UEs at timestamp 1772063392926
+1772063393480	zmq_stats_client	
+1772063393480	zmq_stats_client	--- UE Stats #12 (TS: 1772063392926) ---
+1772063393480	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓6, PRBs(delta) ↑52418/↓1507, PRBs(cum) ↑1013248/↓36673
+1772063393480	zmq_stats_client	---
+1772063393981	zmq_stats_client	2026-02-25 18:49:53,981 - INFO - Received UE stats #13: 1 UEs at timestamp 1772063393426
+1772063393981	zmq_stats_client	
+1772063393981	zmq_stats_client	--- UE Stats #13 (TS: 1772063393426) ---
+1772063393981	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52550/↓1555, PRBs(cum) ↑1101266/↓39793
+1772063393981	zmq_stats_client	---
+1772063394482	zmq_stats_client	2026-02-25 18:49:54,482 - INFO - Received UE stats #14: 1 UEs at timestamp 1772063393926
+1772063394482	zmq_stats_client	
+1772063394482	zmq_stats_client	--- UE Stats #14 (TS: 1772063393926) ---
+1772063394482	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓6, PRBs(delta) ↑52666/↓1696, PRBs(cum) ↑1188742/↓43189
+1772063394482	zmq_stats_client	---
+1772063394983	zmq_stats_client	2026-02-25 18:49:54,983 - INFO - Received UE stats #15: 1 UEs at timestamp 1772063394426
+1772063394983	zmq_stats_client	
+1772063394983	zmq_stats_client	--- UE Stats #15 (TS: 1772063394426) ---
+1772063394983	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓12, PRBs(delta) ↑52632/↓1736, PRBs(cum) ↑1276218/↓46448
+1772063394983	zmq_stats_client	---
+1772063395484	zmq_stats_client	2026-02-25 18:49:55,484 - INFO - Received UE stats #16: 1 UEs at timestamp 1772063394926
+1772063395484	zmq_stats_client	
+1772063395484	zmq_stats_client	--- UE Stats #16 (TS: 1772063394926) ---
+1772063395484	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓12, PRBs(delta) ↑52586/↓1701, PRBs(cum) ↑1363600/↓49671
+1772063395484	zmq_stats_client	---
+1772063395985	zmq_stats_client	2026-02-25 18:49:55,984 - INFO - Received UE stats #17: 1 UEs at timestamp 1772063395426
+1772063395985	zmq_stats_client	
+1772063395985	zmq_stats_client	--- UE Stats #17 (TS: 1772063395426) ---
+1772063395985	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓6, PRBs(delta) ↑52360/↓1541, PRBs(cum) ↑1451712/↓52687
+1772063395985	zmq_stats_client	---
+1772063396485	zmq_stats_client	2026-02-25 18:49:56,485 - INFO - Received UE stats #18: 1 UEs at timestamp 1772063395926
+1772063396485	zmq_stats_client	
+1772063396485	zmq_stats_client	--- UE Stats #18 (TS: 1772063395926) ---
+1772063396485	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52748/↓1540, PRBs(cum) ↑1539612/↓55812
+1772063396485	zmq_stats_client	---
+1772063396986	zmq_stats_client	2026-02-25 18:49:56,986 - INFO - Received UE stats #19: 1 UEs at timestamp 1772063396426
+1772063396986	zmq_stats_client	
+1772063396986	zmq_stats_client	--- UE Stats #19 (TS: 1772063396426) ---
+1772063396986	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52526/↓1575, PRBs(cum) ↑1627936/↓58892
+1772063396986	zmq_stats_client	---
+1772063397487	zmq_stats_client	2026-02-25 18:49:57,487 - INFO - Received UE stats #20: 1 UEs at timestamp 1772063396926
+1772063397487	zmq_stats_client	
+1772063397487	zmq_stats_client	--- UE Stats #20 (TS: 1772063396926) ---
+1772063397487	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52762/↓1520, PRBs(cum) ↑1715966/↓61947
+1772063397487	zmq_stats_client	---
+1772063397988	zmq_stats_client	2026-02-25 18:49:57,988 - INFO - Received UE stats #21: 1 UEs at timestamp 1772063397426
+1772063397988	zmq_stats_client	
+1772063397988	zmq_stats_client	--- UE Stats #21 (TS: 1772063397426) ---
+1772063397988	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52430/↓1600, PRBs(cum) ↑1803972/↓65097
+1772063397988	zmq_stats_client	---
+1772063398489	zmq_stats_client	2026-02-25 18:49:58,489 - INFO - Received UE stats #22: 1 UEs at timestamp 1772063397926
+1772063398489	zmq_stats_client	
+1772063398489	zmq_stats_client	--- UE Stats #22 (TS: 1772063397926) ---
+1772063398489	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52630/↓1560, PRBs(cum) ↑1891660/↓68047
+1772063398489	zmq_stats_client	---
+1772063398990	zmq_stats_client	2026-02-25 18:49:58,989 - INFO - Received UE stats #23: 1 UEs at timestamp 1772063398426
+1772063398990	zmq_stats_client	
+1772063398990	zmq_stats_client	--- UE Stats #23 (TS: 1772063398426) ---
+1772063398990	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52078/↓1515, PRBs(cum) ↑1979560/↓71222
+1772063398990	zmq_stats_client	---
+1772063399490	zmq_stats_client	2026-02-25 18:49:59,490 - INFO - Received UE stats #24: 1 UEs at timestamp 1772063398926
+1772063399491	zmq_stats_client	
+1772063399491	zmq_stats_client	--- UE Stats #24 (TS: 1772063398926) ---
+1772063399491	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52666/↓1535, PRBs(cum) ↑2067260/↓74328
+1772063399491	zmq_stats_client	---
+1772063399991	zmq_stats_client	2026-02-25 18:49:59,991 - INFO - Received UE stats #25: 1 UEs at timestamp 1772063399926
+1772063399991	zmq_stats_client	
+1772063399991	zmq_stats_client	--- UE Stats #25 (TS: 1772063399926) ---
+1772063399991	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52690/↓1600, PRBs(cum) ↑2242106/↓80688
+1772063399991	zmq_stats_client	---
+1772063400492	zmq_stats_client	2026-02-25 18:50:00,492 - INFO - Received UE stats #26: 1 UEs at timestamp 1772063400426
+1772063400492	zmq_stats_client	
+1772063400492	zmq_stats_client	--- UE Stats #26 (TS: 1772063400426) ---
+1772063400492	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52490/↓1490, PRBs(cum) ↑2330018/↓83733
+1772063400492	zmq_stats_client	---
+1772063400993	zmq_stats_client	2026-02-25 18:50:00,993 - INFO - Received UE stats #27: 1 UEs at timestamp 1772063400926
+1772063400993	zmq_stats_client	
+1772063400993	zmq_stats_client	--- UE Stats #27 (TS: 1772063400926) ---
+1772063400993	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52596/↓1555, PRBs(cum) ↑2418024/↓86848
+1772063400993	zmq_stats_client	---
+1772063401494	zmq_stats_client	2026-02-25 18:50:01,494 - INFO - Received UE stats #28: 1 UEs at timestamp 1772063401426
+1772063401494	zmq_stats_client	
+1772063401494	zmq_stats_client	--- UE Stats #28 (TS: 1772063401426) ---
+1772063401494	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52632/↓1585, PRBs(cum) ↑2505830/↓90033
+1772063401494	zmq_stats_client	---
+1772063401995	zmq_stats_client	2026-02-25 18:50:01,995 - INFO - Received UE stats #29: 1 UEs at timestamp 1772063401926
+1772063401995	zmq_stats_client	
+1772063401995	zmq_stats_client	--- UE Stats #29 (TS: 1772063401926) ---
+1772063401995	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52608/↓1495, PRBs(cum) ↑2593224/↓93073
+1772063401995	zmq_stats_client	---
+1772063402496	zmq_stats_client	2026-02-25 18:50:02,496 - INFO - Received UE stats #30: 1 UEs at timestamp 1772063402426
+1772063402496	zmq_stats_client	
+1772063402496	zmq_stats_client	--- UE Stats #30 (TS: 1772063402426) ---
+1772063402496	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓6, PRBs(delta) ↑52726/↓1551, PRBs(cum) ↑2681230/↓96169
+1772063402496	zmq_stats_client	---
+1772063402997	zmq_stats_client	2026-02-25 18:50:02,997 - INFO - Received UE stats #31: 1 UEs at timestamp 1772063402926
+1772063402997	zmq_stats_client	
+1772063402997	zmq_stats_client	--- UE Stats #31 (TS: 1772063402926) ---
+1772063402997	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52394/↓1570, PRBs(cum) ↑2768918/↓99295
+1772063402997	zmq_stats_client	---
+1772063403498	zmq_stats_client	2026-02-25 18:50:03,498 - INFO - Received UE stats #32: 1 UEs at timestamp 1772063403426
+1772063403498	zmq_stats_client	
+1772063403498	zmq_stats_client	--- UE Stats #32 (TS: 1772063403426) ---
+1772063403498	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52678/↓1490, PRBs(cum) ↑2856818/↓102400
+1772063403498	zmq_stats_client	---
+1772063403999	zmq_stats_client	2026-02-25 18:50:03,998 - INFO - Received UE stats #33: 1 UEs at timestamp 1772063403926
+1772063403999	zmq_stats_client	
+1772063403999	zmq_stats_client	--- UE Stats #33 (TS: 1772063403926) ---
+1772063403999	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52632/↓1560, PRBs(cum) ↑2944200/↓105590
+1772063403999	zmq_stats_client	---
+1772063404500	zmq_stats_client	2026-02-25 18:50:04,500 - INFO - Received UE stats #34: 1 UEs at timestamp 1772063404426
+1772063404500	zmq_stats_client	
+1772063404500	zmq_stats_client	--- UE Stats #34 (TS: 1772063404426) ---
+1772063404500	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52514/↓1580, PRBs(cum) ↑3031994/↓108806
+1772063404500	zmq_stats_client	---
+1772063405000	zmq_stats_client	2026-02-25 18:50:05,000 - INFO - Received UE stats #35: 1 UEs at timestamp 1772063404926
+1772063405000	zmq_stats_client	
+1772063405000	zmq_stats_client	--- UE Stats #35 (TS: 1772063404926) ---
+1772063405000	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52642/↓1600, PRBs(cum) ↑3119164/↓111946
+1772063405000	zmq_stats_client	---
+1772063405502	zmq_stats_client	2026-02-25 18:50:05,502 - INFO - Received UE stats #36: 1 UEs at timestamp 1772063405426
+1772063405502	zmq_stats_client	
+1772063405502	zmq_stats_client	--- UE Stats #36 (TS: 1772063405426) ---
+1772063405502	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52430/↓1605, PRBs(cum) ↑3206758/↓115136
+1772063405502	zmq_stats_client	---
+1772063406003	zmq_stats_client	2026-02-25 18:50:06,003 - INFO - Received UE stats #37: 1 UEs at timestamp 1772063405926
+1772063406003	zmq_stats_client	
+1772063406003	zmq_stats_client	--- UE Stats #37 (TS: 1772063405926) ---
+1772063406003	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52500/↓1435, PRBs(cum) ↑3294764/↓118311
+1772063406003	zmq_stats_client	---
+1772063406505	zmq_stats_client	2026-02-25 18:50:06,504 - INFO - Received UE stats #38: 1 UEs at timestamp 1772063406426
+1772063406505	zmq_stats_client	
+1772063406505	zmq_stats_client	--- UE Stats #38 (TS: 1772063406426) ---
+1772063406505	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52690/↓1560, PRBs(cum) ↑3382346/↓121371
+1772063406505	zmq_stats_client	---
+1772063407005	zmq_stats_client	2026-02-25 18:50:07,005 - INFO - Received UE stats #39: 1 UEs at timestamp 1772063406926
+1772063407005	zmq_stats_client	
+1772063407005	zmq_stats_client	--- UE Stats #39 (TS: 1772063406926) ---
+1772063407005	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52738/↓1540, PRBs(cum) ↑3469940/↓124576
+1772063407005	zmq_stats_client	---
+1772063407506	zmq_stats_client	2026-02-25 18:50:07,506 - INFO - Received UE stats #40: 1 UEs at timestamp 1772063407426
+1772063407507	zmq_stats_client	
+1772063407507	zmq_stats_client	--- UE Stats #40 (TS: 1772063407426) ---
+1772063407507	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52514/↓1600, PRBs(cum) ↑3558052/↓127716
+1772063407507	zmq_stats_client	---
+1772063408007	zmq_stats_client	2026-02-25 18:50:08,007 - INFO - Received UE stats #41: 1 UEs at timestamp 1772063407926
+1772063408007	zmq_stats_client	
+1772063408007	zmq_stats_client	--- UE Stats #41 (TS: 1772063407926) ---
+1772063408007	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52514/↓1465, PRBs(cum) ↑3646058/↓130791
+1772063408007	zmq_stats_client	---
+1772063408508	zmq_stats_client	2026-02-25 18:50:08,508 - INFO - Received UE stats #42: 1 UEs at timestamp 1772063408426
+1772063408508	zmq_stats_client	
+1772063408508	zmq_stats_client	--- UE Stats #42 (TS: 1772063408426) ---
+1772063408508	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52490/↓1635, PRBs(cum) ↑3733640/↓134006
+1772063408508	zmq_stats_client	---
+1772063409009	zmq_stats_client	2026-02-25 18:50:09,009 - INFO - Received UE stats #43: 1 UEs at timestamp 1772063408926
+1772063409009	zmq_stats_client	
+1772063409009	zmq_stats_client	--- UE Stats #43 (TS: 1772063408926) ---
+1772063409009	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓8, PRBs(delta) ↑52466/↓1523, PRBs(cum) ↑3821234/↓136924
+1772063409009	zmq_stats_client	---
+1772063409510	zmq_stats_client	2026-02-25 18:50:09,510 - INFO - Received UE stats #44: 1 UEs at timestamp 1772063409426
+1772063409510	zmq_stats_client	
+1772063409510	zmq_stats_client	--- UE Stats #44 (TS: 1772063409426) ---
+1772063409510	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52536/↓1545, PRBs(cum) ↑3909346/↓140009
+1772063409510	zmq_stats_client	---
+1772063410011	zmq_stats_client	2026-02-25 18:50:10,011 - INFO - Received UE stats #45: 1 UEs at timestamp 1772063409926
+1772063410011	zmq_stats_client	
+1772063410011	zmq_stats_client	--- UE Stats #45 (TS: 1772063409926) ---
+1772063410011	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52560/↓1575, PRBs(cum) ↑3997034/↓143164
+1772063410011	zmq_stats_client	---
+1772063410512	zmq_stats_client	2026-02-25 18:50:10,511 - INFO - Received UE stats #46: 1 UEs at timestamp 1772063410426
+1772063410512	zmq_stats_client	
+1772063410512	zmq_stats_client	--- UE Stats #46 (TS: 1772063410426) ---
+1772063410512	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52550/↓1450, PRBs(cum) ↑4084722/↓146244
+1772063410512	zmq_stats_client	---
+1772063411012	zmq_stats_client	2026-02-25 18:50:11,012 - INFO - Received UE stats #47: 1 UEs at timestamp 1772063410926
+1772063411012	zmq_stats_client	
+1772063411012	zmq_stats_client	--- UE Stats #47 (TS: 1772063410926) ---
+1772063411012	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓7, PRBs(delta) ↑52632/↓1502, PRBs(cum) ↑4172316/↓149377
+1772063411012	zmq_stats_client	---
+1772063411513	zmq_stats_client	2026-02-25 18:50:11,513 - INFO - Received UE stats #48: 1 UEs at timestamp 1772063411426
+1772063411513	zmq_stats_client	
+1772063411513	zmq_stats_client	--- UE Stats #48 (TS: 1772063411426) ---
+1772063411513	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52406/↓1660, PRBs(cum) ↑4259580/↓152612
+1772063411513	zmq_stats_client	---
+1772063412014	zmq_stats_client	2026-02-25 18:50:12,014 - INFO - Received UE stats #49: 1 UEs at timestamp 1772063411926
+1772063412014	zmq_stats_client	
+1772063412014	zmq_stats_client	--- UE Stats #49 (TS: 1772063411926) ---
+1772063412014	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52442/↓1515, PRBs(cum) ↑4347704/↓155637
+1772063412014	zmq_stats_client	---
+1772063412615	zmq_stats_client	2026-02-25 18:50:12,615 - INFO - Received UE stats #50: 1 UEs at timestamp 1772063412426
+1772063412615	zmq_stats_client	
+1772063412615	zmq_stats_client	--- UE Stats #50 (TS: 1772063412426) ---
+1772063412615	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52690/↓1590, PRBs(cum) ↑4435298/↓158762
+1772063412615	zmq_stats_client	---
+1772063413116	zmq_stats_client	2026-02-25 18:50:13,116 - INFO - Received UE stats #51: 1 UEs at timestamp 1772063412926
+1772063413116	zmq_stats_client	
+1772063413116	zmq_stats_client	--- UE Stats #51 (TS: 1772063412926) ---
+1772063413116	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52690/↓1500, PRBs(cum) ↑4523092/↓161732
+1772063413116	zmq_stats_client	---
+1772063413617	zmq_stats_client	2026-02-25 18:50:13,616 - INFO - Received UE stats #52: 1 UEs at timestamp 1772063413426
+1772063413617	zmq_stats_client	
+1772063413617	zmq_stats_client	--- UE Stats #52 (TS: 1772063413426) ---
+1772063413617	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓6, PRBs(delta) ↑52430/↓1506, PRBs(cum) ↑4610886/↓164768
+1772063413617	zmq_stats_client	---
+1772063414118	zmq_stats_client	2026-02-25 18:50:14,117 - INFO - Received UE stats #53: 1 UEs at timestamp 1772063413926
+1772063414118	zmq_stats_client	
+1772063414118	zmq_stats_client	--- UE Stats #53 (TS: 1772063413926) ---
+1772063414118	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52784/↓1590, PRBs(cum) ↑4698480/↓167933
+1772063414118	zmq_stats_client	---
+1772063414619	zmq_stats_client	2026-02-25 18:50:14,618 - INFO - Received UE stats #54: 1 UEs at timestamp 1772063414426
+1772063414619	zmq_stats_client	
+1772063414619	zmq_stats_client	--- UE Stats #54 (TS: 1772063414426) ---
+1772063414619	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52430/↓1520, PRBs(cum) ↑4785956/↓171093
+1772063414619	zmq_stats_client	---
+1772063415119	zmq_stats_client	2026-02-25 18:50:15,119 - INFO - Received UE stats #55: 1 UEs at timestamp 1772063414926
+1772063415120	zmq_stats_client	
+1772063415120	zmq_stats_client	--- UE Stats #55 (TS: 1772063414926) ---
+1772063415120	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52430/↓1650, PRBs(cum) ↑4873326/↓174338
+1772063415120	zmq_stats_client	---
+1772063415620	zmq_stats_client	2026-02-25 18:50:15,620 - INFO - Received UE stats #56: 1 UEs at timestamp 1772063415426
+1772063415620	zmq_stats_client	
+1772063415620	zmq_stats_client	--- UE Stats #56 (TS: 1772063415426) ---
+1772063415620	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52726/↓1620, PRBs(cum) ↑4960920/↓177523
+1772063415620	zmq_stats_client	---
+1772063416121	zmq_stats_client	2026-02-25 18:50:16,121 - INFO - Received UE stats #57: 1 UEs at timestamp 1772063415926
+1772063416121	zmq_stats_client	
+1772063416121	zmq_stats_client	--- UE Stats #57 (TS: 1772063415926) ---
+1772063416121	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52714/↓1620, PRBs(cum) ↑5048714/↓180653
+1772063416121	zmq_stats_client	---
+1772063416622	zmq_stats_client	2026-02-25 18:50:16,622 - INFO - Received UE stats #58: 1 UEs at timestamp 1772063416426
+1772063416622	zmq_stats_client	
+1772063416622	zmq_stats_client	--- UE Stats #58 (TS: 1772063416426) ---
+1772063416622	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52760/↓1550, PRBs(cum) ↑5136614/↓183688
+1772063416622	zmq_stats_client	---
+1772063417123	zmq_stats_client	2026-02-25 18:50:17,123 - INFO - Received UE stats #59: 1 UEs at timestamp 1772063416926
+1772063417123	zmq_stats_client	
+1772063417123	zmq_stats_client	--- UE Stats #59 (TS: 1772063416926) ---
+1772063417123	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52360/↓1590, PRBs(cum) ↑5224526/↓186763
+1772063417123	zmq_stats_client	---
+1772063417624	zmq_stats_client	2026-02-25 18:50:17,624 - INFO - Received UE stats #60: 1 UEs at timestamp 1772063417426
+1772063417624	zmq_stats_client	
+1772063417624	zmq_stats_client	--- UE Stats #60 (TS: 1772063417426) ---
+1772063417624	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52632/↓1590, PRBs(cum) ↑5312426/↓190023
+1772063417624	zmq_stats_client	---
+1772063418124	zmq_stats_client	2026-02-25 18:50:18,124 - INFO - Received UE stats #61: 1 UEs at timestamp 1772063417926
+1772063418124	zmq_stats_client	
+1772063418124	zmq_stats_client	--- UE Stats #61 (TS: 1772063417926) ---
+1772063418124	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52760/↓1550, PRBs(cum) ↑5400326/↓193188
+1772063418124	zmq_stats_client	---
+1772063418625	zmq_stats_client	2026-02-25 18:50:18,625 - INFO - Received UE stats #62: 1 UEs at timestamp 1772063418426
+1772063418625	zmq_stats_client	
+1772063418625	zmq_stats_client	--- UE Stats #62 (TS: 1772063418426) ---
+1772063418625	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52572/↓1565, PRBs(cum) ↑5488332/↓196293
+1772063418625	zmq_stats_client	---
+1772063419126	zmq_stats_client	2026-02-25 18:50:19,126 - INFO - Received UE stats #63: 1 UEs at timestamp 1772063418926
+1772063419126	zmq_stats_client	
+1772063419126	zmq_stats_client	--- UE Stats #63 (TS: 1772063418926) ---
+1772063419126	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓10, PRBs(delta) ↑51576/↓1832, PRBs(cum) ↑5574925/↓199772
+1772063419126	zmq_stats_client	---
+1772063419627	zmq_stats_client	2026-02-25 18:50:19,627 - INFO - Received UE stats #64: 1 UEs at timestamp 1772063419426
+1772063419627	zmq_stats_client	
+1772063419627	zmq_stats_client	--- UE Stats #64 (TS: 1772063419426) ---
+1772063419627	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52478/↓1525, PRBs(cum) ↑5662931/↓202927
+1772063419627	zmq_stats_client	---
+1772063420128	zmq_stats_client	2026-02-25 18:50:20,128 - INFO - Received UE stats #65: 1 UEs at timestamp 1772063419926
+1772063420128	zmq_stats_client	
+1772063420128	zmq_stats_client	--- UE Stats #65 (TS: 1772063419926) ---
+1772063420128	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52690/↓1570, PRBs(cum) ↑5750419/↓206067
+1772063420128	zmq_stats_client	---
+1772063420629	zmq_stats_client	2026-02-25 18:50:20,628 - INFO - Received UE stats #66: 1 UEs at timestamp 1772063420426
+1772063420629	zmq_stats_client	
+1772063420629	zmq_stats_client	--- UE Stats #66 (TS: 1772063420426) ---
+1772063420629	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52654/↓1550, PRBs(cum) ↑5838319/↓209272
+1772063420629	zmq_stats_client	---
+1772063421129	zmq_stats_client	2026-02-25 18:50:21,129 - INFO - Received UE stats #67: 1 UEs at timestamp 1772063420926
+1772063421129	zmq_stats_client	
+1772063421129	zmq_stats_client	--- UE Stats #67 (TS: 1772063420926) ---
+1772063421129	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52832/↓1535, PRBs(cum) ↑5926231/↓212307
+1772063421129	zmq_stats_client	---
+1772063421630	zmq_stats_client	2026-02-25 18:50:21,630 - INFO - Received UE stats #68: 1 UEs at timestamp 1772063421426
+1772063421630	zmq_stats_client	
+1772063421630	zmq_stats_client	--- UE Stats #68 (TS: 1772063421426) ---
+1772063421630	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52690/↓1495, PRBs(cum) ↑6014343/↓215322
+1772063421630	zmq_stats_client	---
+1772063422131	zmq_stats_client	2026-02-25 18:50:22,131 - INFO - Received UE stats #69: 1 UEs at timestamp 1772063421926
+1772063422131	zmq_stats_client	
+1772063422131	zmq_stats_client	--- UE Stats #69 (TS: 1772063421926) ---
+1772063422131	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52536/↓1515, PRBs(cum) ↑6102043/↓218402
+1772063422131	zmq_stats_client	---
+1772063422632	zmq_stats_client	2026-02-25 18:50:22,631 - INFO - Received UE stats #70: 1 UEs at timestamp 1772063422426
+1772063422632	zmq_stats_client	
+1772063422632	zmq_stats_client	--- UE Stats #70 (TS: 1772063422426) ---
+1772063422632	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52396/↓1530, PRBs(cum) ↑6189743/↓221487
+1772063422632	zmq_stats_client	---
+1772063423132	zmq_stats_client	2026-02-25 18:50:23,132 - INFO - Received UE stats #71: 1 UEs at timestamp 1772063422926
+1772063423132	zmq_stats_client	
+1772063423132	zmq_stats_client	--- UE Stats #71 (TS: 1772063422926) ---
+1772063423132	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52384/↓1560, PRBs(cum) ↑6277655/↓224707
+1772063423132	zmq_stats_client	---
+1772063423633	zmq_stats_client	2026-02-25 18:50:23,633 - INFO - Received UE stats #72: 1 UEs at timestamp 1772063423426
+1772063423633	zmq_stats_client	
+1772063423633	zmq_stats_client	--- UE Stats #72 (TS: 1772063423426) ---
+1772063423633	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52690/↓1515, PRBs(cum) ↑6365555/↓227732
+1772063423633	zmq_stats_client	---
+1772063424134	zmq_stats_client	2026-02-25 18:50:24,134 - INFO - Received UE stats #73: 1 UEs at timestamp 1772063423926
+1772063424134	zmq_stats_client	
+1772063424134	zmq_stats_client	--- UE Stats #73 (TS: 1772063423926) ---
+1772063424134	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52526/↓1550, PRBs(cum) ↑6453361/↓230847
+1772063424134	zmq_stats_client	---
+1772063424635	zmq_stats_client	2026-02-25 18:50:24,635 - INFO - Received UE stats #74: 1 UEs at timestamp 1772063424426
+1772063424635	zmq_stats_client	
+1772063424635	zmq_stats_client	--- UE Stats #74 (TS: 1772063424426) ---
+1772063424635	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52644/↓1490, PRBs(cum) ↑6541155/↓233977
+1772063424635	zmq_stats_client	---
+1772063425135	zmq_stats_client	2026-02-25 18:50:25,135 - INFO - Received UE stats #75: 1 UEs at timestamp 1772063424926
+1772063425135	zmq_stats_client	
+1772063425136	zmq_stats_client	--- UE Stats #75 (TS: 1772063424926) ---
+1772063425136	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓6, PRBs(delta) ↑52584/↓1461, PRBs(cum) ↑6628631/↓236993
+1772063425136	zmq_stats_client	---
+1772063425636	zmq_stats_client	2026-02-25 18:50:25,636 - INFO - Received UE stats #76: 1 UEs at timestamp 1772063425426
+1772063425636	zmq_stats_client	
+1772063425636	zmq_stats_client	--- UE Stats #76 (TS: 1772063425426) ---
+1772063425636	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52560/↓1490, PRBs(cum) ↑6716543/↓240098
+1772063425636	zmq_stats_client	---
+1772063426137	zmq_stats_client	2026-02-25 18:50:26,137 - INFO - Received UE stats #77: 1 UEs at timestamp 1772063425927
+1772063426137	zmq_stats_client	
+1772063426137	zmq_stats_client	--- UE Stats #77 (TS: 1772063425927) ---
+1772063426137	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52548/↓1590, PRBs(cum) ↑6804231/↓243238
+1772063426137	zmq_stats_client	---
+1772063426638	zmq_stats_client	2026-02-25 18:50:26,638 - INFO - Received UE stats #78: 1 UEs at timestamp 1772063426427
+1772063426638	zmq_stats_client	
+1772063426638	zmq_stats_client	--- UE Stats #78 (TS: 1772063426427) ---
+1772063426638	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52136/↓1560, PRBs(cum) ↑6891601/↓246373
+1772063426638	zmq_stats_client	---
+1772063427139	zmq_stats_client	2026-02-25 18:50:27,138 - INFO - Received UE stats #79: 1 UEs at timestamp 1772063426926
+1772063427139	zmq_stats_client	
+1772063427139	zmq_stats_client	--- UE Stats #79 (TS: 1772063426926) ---
+1772063427139	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52738/↓1545, PRBs(cum) ↑6979831/↓249483
+1772063427139	zmq_stats_client	---
+1772063427639	zmq_stats_client	2026-02-25 18:50:27,639 - INFO - Received UE stats #80: 1 UEs at timestamp 1772063427426
+1772063427639	zmq_stats_client	
+1772063427639	zmq_stats_client	--- UE Stats #80 (TS: 1772063427426) ---
+1772063427639	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52348/↓1490, PRBs(cum) ↑7067519/↓252644
+1772063427639	zmq_stats_client	---
+1772063428140	zmq_stats_client	2026-02-25 18:50:28,140 - INFO - Received UE stats #81: 1 UEs at timestamp 1772063427926
+1772063428140	zmq_stats_client	
+1772063428140	zmq_stats_client	--- UE Stats #81 (TS: 1772063427926) ---
+1772063428140	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52372/↓1620, PRBs(cum) ↑7155113/↓255889
+1772063428140	zmq_stats_client	---
+1772063428641	zmq_stats_client	2026-02-25 18:50:28,641 - INFO - Received UE stats #82: 1 UEs at timestamp 1772063428426
+1772063428641	zmq_stats_client	
+1772063428641	zmq_stats_client	--- UE Stats #82 (TS: 1772063428426) ---
+1772063428641	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52548/↓1565, PRBs(cum) ↑7243119/↓258989
+1772063428641	zmq_stats_client	---
+1772063429142	zmq_stats_client	2026-02-25 18:50:29,142 - INFO - Received UE stats #83: 1 UEs at timestamp 1772063428926
+1772063429142	zmq_stats_client	
+1772063429142	zmq_stats_client	--- UE Stats #83 (TS: 1772063428926) ---
+1772063429142	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52796/↓1460, PRBs(cum) ↑7330925/↓261964
+1772063429142	zmq_stats_client	---
+1772063429743	zmq_stats_client	2026-02-25 18:50:29,743 - INFO - Received UE stats #84: 1 UEs at timestamp 1772063429426
+1772063429743	zmq_stats_client	
+1772063429743	zmq_stats_client	--- UE Stats #84 (TS: 1772063429426) ---
+1772063429743	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52548/↓1535, PRBs(cum) ↑7418825/↓265214
+1772063429743	zmq_stats_client	---
+1772063430244	zmq_stats_client	2026-02-25 18:50:30,244 - INFO - Received UE stats #85: 1 UEs at timestamp 1772063429926
+1772063430244	zmq_stats_client	
+1772063430244	zmq_stats_client	--- UE Stats #85 (TS: 1772063429926) ---
+1772063430244	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52490/↓1505, PRBs(cum) ↑7506089/↓268339
+1772063430244	zmq_stats_client	---
+1772063430744	zmq_stats_client	2026-02-25 18:50:30,744 - INFO - Received UE stats #86: 1 UEs at timestamp 1772063430426
+1772063430744	zmq_stats_client	
+1772063430744	zmq_stats_client	--- UE Stats #86 (TS: 1772063430426) ---
+1772063430744	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52656/↓1575, PRBs(cum) ↑7593895/↓271419
+1772063430744	zmq_stats_client	---
+1772063431245	zmq_stats_client	2026-02-25 18:50:31,245 - INFO - Received UE stats #87: 1 UEs at timestamp 1772063430926
+1772063431245	zmq_stats_client	
+1772063431245	zmq_stats_client	--- UE Stats #87 (TS: 1772063430926) ---
+1772063431245	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52538/↓1555, PRBs(cum) ↑7681901/↓274614
+1772063431245	zmq_stats_client	---
+1772063431746	zmq_stats_client	2026-02-25 18:50:31,746 - INFO - Received UE stats #88: 1 UEs at timestamp 1772063431426
+1772063431746	zmq_stats_client	
+1772063431746	zmq_stats_client	--- UE Stats #88 (TS: 1772063431426) ---
+1772063431746	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52702/↓1565, PRBs(cum) ↑7769483/↓277834
+1772063431746	zmq_stats_client	---
+1772063432247	zmq_stats_client	2026-02-25 18:50:32,247 - INFO - Received UE stats #89: 1 UEs at timestamp 1772063431926
+1772063432247	zmq_stats_client	
+1772063432247	zmq_stats_client	--- UE Stats #89 (TS: 1772063431926) ---
+1772063432247	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52726/↓1515, PRBs(cum) ↑7857183/↓280944
+1772063432247	zmq_stats_client	---
+1772063432748	zmq_stats_client	2026-02-25 18:50:32,748 - INFO - Received UE stats #90: 1 UEs at timestamp 1772063432426
+1772063432748	zmq_stats_client	
+1772063432748	zmq_stats_client	--- UE Stats #90 (TS: 1772063432426) ---
+1772063432748	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52690/↓1560, PRBs(cum) ↑7945401/↓283959
+1772063432748	zmq_stats_client	---
+1772063433248	zmq_stats_client	2026-02-25 18:50:33,248 - INFO - Received UE stats #91: 1 UEs at timestamp 1772063432926
+1772063433248	zmq_stats_client	
+1772063433248	zmq_stats_client	--- UE Stats #91 (TS: 1772063432926) ---
+1772063433248	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52430/↓1550, PRBs(cum) ↑8033089/↓287039
+1772063433249	zmq_stats_client	---
+1772063433749	zmq_stats_client	2026-02-25 18:50:33,749 - INFO - Received UE stats #92: 1 UEs at timestamp 1772063433426
+1772063433749	zmq_stats_client	
+1772063433749	zmq_stats_client	--- UE Stats #92 (TS: 1772063433426) ---
+1772063433749	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52066/↓1575, PRBs(cum) ↑8120989/↓290289
+1772063433749	zmq_stats_client	---
+1772063434250	zmq_stats_client	2026-02-25 18:50:34,250 - INFO - Received UE stats #93: 1 UEs at timestamp 1772063433926
+1772063434250	zmq_stats_client	
+1772063434250	zmq_stats_client	--- UE Stats #93 (TS: 1772063433926) ---
+1772063434250	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52348/↓1475, PRBs(cum) ↑8208795/↓293344
+1772063434250	zmq_stats_client	---
+1772063434751	zmq_stats_client	2026-02-25 18:50:34,751 - INFO - Received UE stats #94: 1 UEs at timestamp 1772063434426
+1772063434751	zmq_stats_client	
+1772063434751	zmq_stats_client	--- UE Stats #94 (TS: 1772063434426) ---
+1772063434751	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52466/↓1650, PRBs(cum) ↑8296377/↓296549
+1772063434751	zmq_stats_client	---
+1772063435252	zmq_stats_client	2026-02-25 18:50:35,252 - INFO - Received UE stats #95: 1 UEs at timestamp 1772063434926
+1772063435252	zmq_stats_client	
+1772063435252	zmq_stats_client	--- UE Stats #95 (TS: 1772063434926) ---
+1772063435252	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52596/↓1490, PRBs(cum) ↑8383229/↓299659
+1772063435252	zmq_stats_client	---
+1772063435753	zmq_stats_client	2026-02-25 18:50:35,753 - INFO - Received UE stats #96: 1 UEs at timestamp 1772063435426
+1772063435753	zmq_stats_client	
+1772063435753	zmq_stats_client	--- UE Stats #96 (TS: 1772063435426) ---
+1772063435753	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52654/↓1590, PRBs(cum) ↑8466807/↓302524
+1772063435753	zmq_stats_client	---
+1772063436254	zmq_stats_client	2026-02-25 18:50:36,253 - INFO - Received UE stats #97: 1 UEs at timestamp 1772063435926
+1772063436254	zmq_stats_client	
+1772063436254	zmq_stats_client	--- UE Stats #97 (TS: 1772063435926) ---
+1772063436254	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52584/↓1555, PRBs(cum) ↑8550915/↓305454
+1772063436254	zmq_stats_client	---
+1772063436754	zmq_stats_client	2026-02-25 18:50:36,754 - INFO - Received UE stats #98: 1 UEs at timestamp 1772063436426
+1772063436754	zmq_stats_client	
+1772063436754	zmq_stats_client	--- UE Stats #98 (TS: 1772063436426) ---
+1772063436754	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52206/↓1535, PRBs(cum) ↑8629441/↓308279
+1772063436754	zmq_stats_client	---
+1772063437255	zmq_stats_client	2026-02-25 18:50:37,255 - INFO - Received UE stats #99: 1 UEs at timestamp 1772063436926
+1772063437255	zmq_stats_client	
+1772063437255	zmq_stats_client	--- UE Stats #99 (TS: 1772063436926) ---
+1772063437255	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓6, PRBs(delta) ↑52184/↓1556, PRBs(cum) ↑8710805/↓311270
+1772063437255	zmq_stats_client	---
+1772063437756	zmq_stats_client	2026-02-25 18:50:37,756 - INFO - Received UE stats #100: 1 UEs at timestamp 1772063437426
+1772063437756	zmq_stats_client	
+1772063437756	zmq_stats_client	--- UE Stats #100 (TS: 1772063437426) ---
+1772063437756	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓6, PRBs(delta) ↑52560/↓1651, PRBs(cum) ↑8791333/↓314176
+1772063437756	zmq_stats_client	---
+1772063438257	zmq_stats_client	2026-02-25 18:50:38,257 - INFO - Received UE stats #101: 1 UEs at timestamp 1772063437926
+1772063438257	zmq_stats_client	
+1772063438257	zmq_stats_client	--- UE Stats #101 (TS: 1772063437926) ---
+1772063438257	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52618/↓1470, PRBs(cum) ↑8876065/↓316996
+1772063438257	zmq_stats_client	---
+1772063438757	zmq_stats_client	2026-02-25 18:50:38,757 - INFO - Received UE stats #102: 1 UEs at timestamp 1772063438426
+1772063438757	zmq_stats_client	
+1772063438757	zmq_stats_client	--- UE Stats #102 (TS: 1772063438426) ---
+1772063438757	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52548/↓1540, PRBs(cum) ↑8962081/↓320006
+1772063438757	zmq_stats_client	---
+1772063439258	zmq_stats_client	2026-02-25 18:50:39,258 - INFO - Received UE stats #103: 1 UEs at timestamp 1772063438926
+1772063439258	zmq_stats_client	
+1772063439258	zmq_stats_client	--- UE Stats #103 (TS: 1772063438926) ---
+1772063439258	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52372/↓1585, PRBs(cum) ↑9048709/↓323091
+1772063439258	zmq_stats_client	---
+1772063439759	zmq_stats_client	2026-02-25 18:50:39,759 - INFO - Received UE stats #104: 1 UEs at timestamp 1772063439426
+1772063439759	zmq_stats_client	
+1772063439759	zmq_stats_client	--- UE Stats #104 (TS: 1772063439426) ---
+1772063439759	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52324/↓1475, PRBs(cum) ↑9134925/↓326111
+1772063439759	zmq_stats_client	---
+1772063440260	zmq_stats_client	2026-02-25 18:50:40,260 - INFO - Received UE stats #105: 1 UEs at timestamp 1772063439926
+1772063440260	zmq_stats_client	
+1772063440260	zmq_stats_client	--- UE Stats #105 (TS: 1772063439926) ---
+1772063440260	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52796/↓1620, PRBs(cum) ↑9216619/↓329026
+1772063440260	zmq_stats_client	---
+1772063440761	zmq_stats_client	2026-02-25 18:50:40,761 - INFO - Received UE stats #106: 1 UEs at timestamp 1772063440426
+1772063440761	zmq_stats_client	
+1772063440761	zmq_stats_client	--- UE Stats #106 (TS: 1772063440426) ---
+1772063440761	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52832/↓1485, PRBs(cum) ↑9300409/↓331931
+1772063440761	zmq_stats_client	---
+1772063441262	zmq_stats_client	2026-02-25 18:50:41,262 - INFO - Received UE stats #107: 1 UEs at timestamp 1772063440926
+1772063441262	zmq_stats_client	
+1772063441262	zmq_stats_client	--- UE Stats #107 (TS: 1772063440926) ---
+1772063441262	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓6, PRBs(delta) ↑52868/↓1471, PRBs(cum) ↑9381667/↓334767
+1772063441262	zmq_stats_client	---
+1772063441763	zmq_stats_client	2026-02-25 18:50:41,763 - INFO - Received UE stats #108: 1 UEs at timestamp 1772063441426
+1772063441763	zmq_stats_client	
+1772063441763	zmq_stats_client	--- UE Stats #108 (TS: 1772063441426) ---
+1772063441763	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑0/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52430/↓1595, PRBs(cum) ↑9469567/↓337857
+1772063441763	zmq_stats_client	---
+1772063442264	zmq_stats_client	2026-02-25 18:50:42,264 - INFO - Received UE stats #109: 1 UEs at timestamp 1772063441926
+1772063442264	zmq_stats_client	
+1772063442264	zmq_stats_client	--- UE Stats #109 (TS: 1772063441926) ---
+1772063442264	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓13, PRBs(delta) ↑51341/↓1798, PRBs(cum) ↑9552580/↓341050
+1772063442264	zmq_stats_client	---
+1772063442765	zmq_stats_client	2026-02-25 18:50:42,765 - INFO - Received UE stats #110: 1 UEs at timestamp 1772063442427
+1772063442765	zmq_stats_client	
+1772063442765	zmq_stats_client	--- UE Stats #110 (TS: 1772063442427) ---
+1772063442765	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52644/↓1460, PRBs(cum) ↑9630258/↓343705
+1772063442765	zmq_stats_client	---
+1772063443265	zmq_stats_client	2026-02-25 18:50:43,265 - INFO - Received UE stats #111: 1 UEs at timestamp 1772063442926
+1772063443265	zmq_stats_client	
+1772063443265	zmq_stats_client	--- UE Stats #111 (TS: 1772063442926) ---
+1772063443265	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52656/↓1520, PRBs(cum) ↑9715838/↓346785
+1772063443265	zmq_stats_client	---
+1772063443766	zmq_stats_client	2026-02-25 18:50:43,766 - INFO - Received UE stats #112: 1 UEs at timestamp 1772063443426
+1772063443766	zmq_stats_client	
+1772063443766	zmq_stats_client	--- UE Stats #112 (TS: 1772063443426) ---
+1772063443766	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓7, PRBs(delta) ↑52432/↓1497, PRBs(cum) ↑9802796/↓349887
+1772063443766	zmq_stats_client	---
+1772063444267	zmq_stats_client	2026-02-25 18:50:44,267 - INFO - Received UE stats #113: 1 UEs at timestamp 1772063443926
+1772063444267	zmq_stats_client	
+1772063444267	zmq_stats_client	--- UE Stats #113 (TS: 1772063443926) ---
+1772063444267	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52078/↓1485, PRBs(cum) ↑9881628/↓352702
+1772063444267	zmq_stats_client	---
+1772063444768	zmq_stats_client	2026-02-25 18:50:44,768 - INFO - Received UE stats #114: 1 UEs at timestamp 1772063444426
+1772063444768	zmq_stats_client	
+1772063444768	zmq_stats_client	--- UE Stats #114 (TS: 1772063444426) ---
+1772063444768	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑94/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52430/↓1575, PRBs(cum) ↑9964994/↓355747
+1772063444768	zmq_stats_client	---
+1772063445269	zmq_stats_client	2026-02-25 18:50:45,268 - INFO - Received UE stats #115: 1 UEs at timestamp 1772063444926
+1772063445269	zmq_stats_client	
+1772063445269	zmq_stats_client	--- UE Stats #115 (TS: 1772063444926) ---
+1772063445269	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52714/↓1535, PRBs(cum) ↑10048266/↓358757
+1772063445269	zmq_stats_client	---
+1772063445769	zmq_stats_client	2026-02-25 18:50:45,769 - INFO - Received UE stats #116: 1 UEs at timestamp 1772063445426
+1772063445769	zmq_stats_client	
+1772063445769	zmq_stats_client	--- UE Stats #116 (TS: 1772063445426) ---
+1772063445769	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52478/↓1460, PRBs(cum) ↑10133010/↓361537
+1772063445769	zmq_stats_client	---
+1772063446270	zmq_stats_client	2026-02-25 18:50:46,270 - INFO - Received UE stats #117: 1 UEs at timestamp 1772063445926
+1772063446270	zmq_stats_client	
+1772063446270	zmq_stats_client	--- UE Stats #117 (TS: 1772063445926) ---
+1772063446270	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓0, PRBs(max) ↑106/↓5, PRBs(delta) ↑52372/↓1540, PRBs(cum) ↑10216800/↓364547
+1772063446270	zmq_stats_client	---
+1772063446771	zmq_stats_client	2026-02-25 18:50:46,771 - INFO - Received UE stats #118: 1 UEs at timestamp 1772063446426
+1772063446771	zmq_stats_client	
+1772063446771	zmq_stats_client	--- UE Stats #118 (TS: 1772063446426) ---
+1772063446771	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52278/↓1565, PRBs(cum) ↑10301014/↓367557
+1772063446771	zmq_stats_client	---
+1772063447372	zmq_stats_client	2026-02-25 18:50:47,372 - INFO - Received UE stats #119: 1 UEs at timestamp 1772063446926
+1772063447372	zmq_stats_client	
+1772063447372	zmq_stats_client	--- UE Stats #119 (TS: 1772063446926) ---
+1772063447372	zmq_stats_client	UE 0, RNTI 22891 (0x596b): MCS ↑28/↓28, BLER ↑0.000/↓0.000, PRBs(inst) ↑106/↓5, PRBs(max) ↑106/↓5, PRBs(delta) ↑52372/↓1510, PRBs(cum) ↑10386382/↓370602
+1772063447372	zmq_stats_client	---
