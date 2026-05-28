@@ -358,5 +358,17 @@ The data is suitable for:
 
 ## Citation
 
-If this dataset contributes to published work, please cite the associated CU–DU load study and LDPC acceleration analysis as referenced in the accompanying manuscript.
+If this repository or dataset contributes to published work, please cite the associated AtlasRAN manuscript:
 
+```bibtex
+@misc{barker2026atlasranmodelingperformanceevaluation,
+      title        = {AtlasRAN: Timing-Aware Evaluation of Open-source 5G Platforms for Integrated Wireless Testbeds},
+      author       = {Ryan Barker and Tolunay Seyfi and Alireza Ebrahimi Dorcheh and Julia Boone and Fatemeh Afghah and Joseph Boccuzzi},
+      year         = {2026},
+      eprint       = {2603.14661},
+      archivePrefix= {arXiv},
+      primaryClass = {cs.NI},
+      url          = {https://arxiv.org/abs/2603.14661},
+      note         = {Submitted to the 2026 IEEE Military Communications Conference (MILCOM 2026), Track 4: Integrated Network Architecture and Systems-of-systems. Final submission PDF: AtlasRAN__5G_Emulation__MILCOM_ (1)(1).pdf}
+}
+```
